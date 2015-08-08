@@ -33,7 +33,7 @@ body {
 	line-height: 1;
 	font-family: 'Open Sans Condensed', sans-serif;
 	overflow: hidden;
-	color: #5A5A5A;
+	color: #6A6A6A;
 }
 ol, ul {
 	list-style: none;
@@ -128,7 +128,7 @@ p{
 	top: 0px;
 	left: 0px;
 	text-align: center;
-	text-shadow: 0px 0px 5px #000, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
 }
 .bootStrap{
 	position: absolute;
@@ -137,7 +137,7 @@ p{
 	top: 16px;
 	right: 0px;
 	text-align: center;
-	text-shadow: 0px 0px 5px #000, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
 }
 .javaScript{
 	position: absolute;
@@ -146,7 +146,7 @@ p{
 	text-align: center;
 	top: 62px;
 	left: 0px;
-	text-shadow: 0px 0px 5px #000, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
 }
 .angularJ{
 	position: absolute;
@@ -155,7 +155,7 @@ p{
 	text-align: center;
 	top: 78px;
 	right: 0px;
-	text-shadow: 0px 0px 5px #000, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
 }
 .rubyLang{
 	position: absolute;
@@ -164,7 +164,7 @@ p{
 	text-align: center;
 	top: 124px;
 	left: 0px;
-	text-shadow: 0px 0px 5px #000, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
 }
 .rubyFrame{
 	position: absolute;
@@ -173,8 +173,98 @@ p{
 	text-align: center;
 	top: 142px;
 	right: 0px;
-	text-shadow: 0px 0px 5px #000, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
 }
+
+.rabbitTextWrapper{
+	position: absolute;
+	z-index: 9999;
+	width: 540px;
+	height: 200px;
+	top: 500px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	font-size: 32px;
+	line-height: 32px;	
+}
+.photoshop{
+	position: absolute;
+	width: 270px;
+	height: 32px;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+}
+.illustrator{
+	position: absolute;
+	width: 270px;
+	height: 32px;
+	top: 16px;
+	right: 0px;
+	text-align: center;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+}
+.afterEffects{
+	position: absolute;
+	width: 270px;
+	height: 32px;
+	text-align: center;
+	top: 62px;
+	left: 0px;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+}
+.cinema{
+	position: absolute;
+	width: 270px;
+	height: 32px;
+	text-align: center;
+	top: 78px;
+	right: 0px;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+}
+.seo{
+	position: absolute;
+	width: 280px;
+	height: 32px;
+	text-align: center;
+	top: 124px;
+	left: 0px;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+}
+.content{
+	position: absolute;
+	width: 270px;
+	height: 32px;
+	text-align: center;
+	top: 142px;
+	right: 0px;
+	text-shadow: 0px 0px 5px #6A6A6A, 0px 0px 10px #E4E4E4, 0px 0px 15px #FFF;
+}
+.rabbitStroke{
+	position: absolute;
+	z-index: 99;
+	top: 50px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	opacity: 1;
+}
+.rabbitColor{
+	position: absolute;
+	z-index: 999;
+	top: 50px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	width: 400px;
+	height: 400px;
+	opacity: 0;
+}
+
 
 
 
