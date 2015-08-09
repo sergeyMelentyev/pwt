@@ -56,7 +56,6 @@ a{
 }
 p{
 	font-size: 16px;
-
 }
 .mainContantWrapper{
 	width: 100%;
@@ -251,7 +250,6 @@ p{
 	margin: auto;
 	width: 400px;
 	height: 400px;
-	opacity: 1;
 }
 .rabbitColor{
 	position: absolute;
@@ -264,8 +262,17 @@ p{
 	height: 400px;
 	opacity: 0;
 }
-
-
+#testProg{
+	position: absolute;
+	z-index: 99999;
+	top: 0px;
+	bottom: 0px;
+	left: 20px;
+	margin: auto;
+	width: 150px;
+	opacity: 0;
+	cursor: pointer;
+}
 
 
 

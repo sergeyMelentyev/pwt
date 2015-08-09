@@ -2,7 +2,9 @@
 									/* VARIABLES */
 var bearVivus,
 	rabbitVivus,
+	leftArrowVivus,
 	
+	testProg = $('#testProg'),
 	bearStroke = $('.bearStroke'),
 	bearColor = $('.bearColor'),
 	developer = $('#developer'),
@@ -28,14 +30,14 @@ var bearVivus,
 var drawBear = function(){
 	bearVivus = new Vivus('bearStrokeVivus', {
 	    type: 'async',
-	    duration: 300
+	    duration: 200
 		},
 	    function(){
 	    	console.log('BEAR SVG DONE');
     	});
 	rabbitVivus = new Vivus('rabbitStrokeVivus', {
 	    type: 'async',
-	    duration: 300
+	    duration: 200
 		},
 	    function(){
 	    	console.log('RABBIT SVG DONE');
@@ -43,6 +45,15 @@ var drawBear = function(){
 };
 drawBear();
 
+var drawLeftArrow = function () {
+	leftArrowVivus = new Vivus('testProg', {
+    type: 'oneByOne',
+    duration: 5000
+	},
+    function(){
+    	console.log('LEFT ARROW SVG DONE');
+	});
+}
 
 									/* START BEAR ANIMATION POSITION */
 htmlTag.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
@@ -51,6 +62,7 @@ javaScript.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
 angularJ.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
 rubyLang.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
 rubyFrame.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
+testProg.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
 
 									/* BEAR ANIMATION */
 leftBearWrapper.hover(
@@ -65,6 +77,9 @@ leftBearWrapper.hover(
 		angularJ.transition({ opacity: 1, x: 0, delay: 400 }, 2150, 'easeOutQuad');
 		rubyLang.transition({ opacity: 1, x: 0, delay: 500 }, 2200, 'easeOutQuad');
 		rubyFrame.transition({ opacity: 1, x: 0, delay: 600 }, 2250, 'easeOutQuad');
+		
+		drawLeftArrow();
+		testProg.transition({ opacity: 0.4, x: 0 }, 1500, 'easeOutQuad');
   	}, function() {
 		bearColor.transition({ opacity: 0, scale: 1 }, 1000, 'easeOutQuad');
 		bearStroke.transition({ opacity: 1, scale: 1 }, 1000, 'easeOutQuad');
@@ -76,8 +91,42 @@ leftBearWrapper.hover(
 		angularJ.transition({ opacity: 0, x: 25, delay: 300 }, 2150, 'easeOutQuad');
 		rubyLang.transition({ opacity: 0, x: -25, delay: 200 }, 2200, 'easeOutQuad');
 		rubyFrame.transition({ opacity: 0, x: 25, delay: 100 }, 2250, 'easeOutQuad');
+
+		testProg.transition({ opacity: 0, x: 25 }, 1500, 'easeOutQuad');
   	}
 );
+testProg.hover(
+	function() {
+		testProg.transition({ opacity: 1, scale: 1.02 }, 500, 'easeOutQuad');
+
+		htmlTag.transition({ opacity: 0.4, x: 10, delay: 100 }, 500, 'easeOutQuad');
+		bootStrap.transition({ opacity: 0.4, x: 10, delay: 200 }, 500, 'easeOutQuad');
+		javaScript.transition({ opacity: 0.4, x: 10, delay: 300 }, 500, 'easeOutQuad');
+		angularJ.transition({ opacity: 0.4, x: 10, delay: 400 }, 500, 'easeOutQuad');
+		rubyLang.transition({ opacity: 0.4, x: 10, delay: 500 }, 500, 'easeOutQuad');
+		rubyFrame.transition({ opacity: 0.4, x: 10, delay: 600 }, 500, 'easeOutQuad');
+	}, function(){
+		testProg.transition({ opacity: 0.4, scale: 1 }, 500, 'easeOutQuad');
+
+		htmlTag.transition({ opacity: 1, x: 0, delay: 100 }, 500, 'easeOutQuad');
+		bootStrap.transition({ opacity: 1, x: 0, delay: 200 }, 500, 'easeOutQuad');
+		javaScript.transition({ opacity: 1, x: 0, delay: 300 }, 500, 'easeOutQuad');
+		angularJ.transition({ opacity: 1, x: 0, delay: 400 }, 500, 'easeOutQuad');
+		rubyLang.transition({ opacity: 1, x: 0, delay: 500 }, 500, 'easeOutQuad');
+		rubyFrame.transition({ opacity: 1, x: 0, delay: 600 }, 500, 'easeOutQuad');
+	}
+);
+
+var bearPosition = $('.leftBearWrapper');
+bearPosition.height = window.innerHeight;
+bearPosition.width = window.innerWidth;
+
+testProg.click(function(){
+	leftBearWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
+	rightRabbitWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
+});
+
+
 
 									/* START RABBIT ANIMATION POSITION */
 	photoshop.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
@@ -114,16 +163,11 @@ rightRabbitWrapper.hover(
 
 
 
-
-
-
-
-
 var c = document.getElementById("developer");
 var ctx = c.getContext("2d");
 c.height = window.innerHeight;
 c.width = window.innerWidth;
-var chinese = "田由甲申甴电甶男甸甹町画甼甽甾甿畀畁畂畃畄畅畆畇畈畉畊畋界畍畎畏畐畑";
+var chinese = "01";
 chinese = chinese.split("");
 var font_size = 20;
 var columns = c.width/font_size;
@@ -131,7 +175,7 @@ var drops = [];
 for(var x = 0; x < columns; x++)
 	drops[x] = 1; 
 	function draw(){
-		ctx.fillStyle = "rgba(255, 255, 255, 0.1)";
+		ctx.fillStyle = "rgba(255, 255, 255, 0.12)";
 		ctx.fillRect(0, 0, c.width, c.height);
 		ctx.fillStyle = "#E4E4E4"; //0F0
 		ctx.font = font_size + "px arial";
