@@ -4,6 +4,9 @@ var bearVivus,
 	rabbitVivus,
 	leftArrowVivus,
 	
+	bearCounter = 0,
+	rabbitCounter = 0,
+
 	testProg = $('#testProg'),
 	bearStroke = $('.bearStroke'),
 	bearColor = $('.bearColor'),
@@ -117,13 +120,14 @@ testProg.hover(
 	}
 );
 
+									/* LEFT BEAR ANIMATION POSITION */
 var bearPosition = $('.leftBearWrapper');
 bearPosition.height = window.innerHeight;
 bearPosition.width = window.innerWidth;
-
 testProg.click(function(){
-	leftBearWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
-	rightRabbitWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
+	leftBearWrapper.transition({ x: bearPosition.width / 2 }, 500, 'easeOutQuad');
+	rightRabbitWrapper.transition({ x: bearPosition.width / 2 }, 500, 'easeOutQuad');
+	bearCounter++;
 });
 
 
