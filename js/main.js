@@ -3,11 +3,16 @@
 var bearVivus,
 	rabbitVivus,
 	leftArrowVivus,
-	
+	rightArrowVivus,
+	timeoutID,
+	preloaderHider = $('.preloaderHider'),
+	preloaderWrapper = $('.preloaderWrapper'),
+
 	bearCounter = 0,
 	rabbitCounter = 0,
 
-	testProg = $('#testProg'),
+	bearLeftArrow = $('#bearLeftArrow'),
+	rabbitRightArrow = $('#rabbitRightArrow'),
 	bearStroke = $('.bearStroke'),
 	bearColor = $('.bearColor'),
 	developer = $('#developer'),
@@ -30,33 +35,72 @@ var bearVivus,
 	content = $('.content');
 
 
+											/* PRELOADER WRAPPER */
+
+window.addEventListener("load", function load(event){
+	window.removeEventListener("load", load, false); 
+	preloaderHider.transition({ x: 500 }, 10, 'easeOutQuad');
+	delayedStart();
+	console.log('ONLOAD EVENT FIRES'); 
+},false);
+function delayedStart() {
+	// some function here
+	timeoutID = window.setTimeout(startApplication, 5000);
+	console.log('DELAYED START 3000MS DONE');
+}
+function startApplication () {
+	preloaderHider.transition({ x: 0 }, 5000, 'easeOutQuad');
+	setTimeout(function() {
+		drawBear();
+	}, 3000);
+	console.log('APP FIRES');
+};
+
+
 var drawBear = function(){
+	bearStroke.transition({ opacity: 1 }, 200, 'easeOutQuad');
+	rabbitStroke.transition({ opacity: 1 }, 200, 'easeOutQuad');
 	bearVivus = new Vivus('bearStrokeVivus', {
 	    type: 'async',
-	    duration: 200
+	    duration: 300
 		},
 	    function(){
 	    	console.log('BEAR SVG DONE');
     	});
 	rabbitVivus = new Vivus('rabbitStrokeVivus', {
 	    type: 'async',
-	    duration: 200
+	    duration: 300
 		},
 	    function(){
+	    	preloaderKill();
 	    	console.log('RABBIT SVG DONE');
     	});
 };
-drawBear();
 
-var drawLeftArrow = function () {
-	leftArrowVivus = new Vivus('testProg', {
+var preloaderKill = function(){
+	preloaderWrapper.transition({ opacity: 1 }, 200, 'easeOutQuad');
+	setTimeout(function() {
+		preloaderWrapper.css({'display': 'none'});
+	}, 300);
+};
+var drawLeftArrow = function(){
+	leftArrowVivus = new Vivus('bearLeftArrow', {
     type: 'oneByOne',
     duration: 5000
 	},
     function(){
     	console.log('LEFT ARROW SVG DONE');
 	});
-}
+};
+var drawRightArrow = function(){
+	rightArrowVivus = new Vivus('rabbitRightArrow', {
+    type: 'oneByOne',
+    duration: 5000
+	},
+    function(){
+    	console.log('LEFT ARROW SVG DONE');
+	});
+};
 
 									/* START BEAR ANIMATION POSITION */
 htmlTag.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
@@ -65,7 +109,7 @@ javaScript.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
 angularJ.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
 rubyLang.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
 rubyFrame.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
-testProg.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
+bearLeftArrow.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
 
 									/* BEAR ANIMATION */
 leftBearWrapper.hover(
@@ -74,49 +118,49 @@ leftBearWrapper.hover(
 		bearStroke.transition({ opacity: 0.6, scale: 1.05 }, 1500, 'easeOutQuad');
 		developer.transition({ opacity: 1 }, 1500, 'easeOutQuad');
 		
-		htmlTag.transition({ opacity: 1, x: 0, delay: 100 }, 2000, 'easeOutQuad');
-		bootStrap.transition({ opacity: 1, x: 0, delay: 200 }, 2050, 'easeOutQuad');
-		javaScript.transition({ opacity: 1, x: 0, delay: 300 }, 2100, 'easeOutQuad');
-		angularJ.transition({ opacity: 1, x: 0, delay: 400 }, 2150, 'easeOutQuad');
-		rubyLang.transition({ opacity: 1, x: 0, delay: 500 }, 2200, 'easeOutQuad');
-		rubyFrame.transition({ opacity: 1, x: 0, delay: 600 }, 2250, 'easeOutQuad');
+		htmlTag.transition({ opacity: 1, x: 0, delay: 50 }, 500, 'easeOutQuad');
+		bootStrap.transition({ opacity: 1, x: 0, delay: 100 }, 550, 'easeOutQuad');
+		javaScript.transition({ opacity: 1, x: 0, delay: 150 }, 600, 'easeOutQuad');
+		angularJ.transition({ opacity: 1, x: 0, delay: 200 }, 650, 'easeOutQuad');
+		rubyLang.transition({ opacity: 1, x: 0, delay: 250 }, 700, 'easeOutQuad');
+		rubyFrame.transition({ opacity: 1, x: 0, delay: 300 }, 750, 'easeOutQuad');
 		
 		drawLeftArrow();
-		testProg.transition({ opacity: 0.4, x: 0 }, 1500, 'easeOutQuad');
+		bearLeftArrow.transition({ opacity: 0.4, x: 0 }, 1000, 'easeOutQuad');
   	}, function() {
 		bearColor.transition({ opacity: 0, scale: 1 }, 1000, 'easeOutQuad');
 		bearStroke.transition({ opacity: 1, scale: 1 }, 1000, 'easeOutQuad');
 		developer.transition({ opacity: 0 }, 1000, 'easeOutQuad');
 
-		htmlTag.transition({ opacity: 0, x: -25, delay: 600 }, 2000, 'easeOutQuad');
-		bootStrap.transition({ opacity: 0, x: 25, delay: 500 }, 2050, 'easeOutQuad');
-		javaScript.transition({ opacity: 0, x: -25, delay: 400 }, 2100, 'easeOutQuad');
-		angularJ.transition({ opacity: 0, x: 25, delay: 300 }, 2150, 'easeOutQuad');
-		rubyLang.transition({ opacity: 0, x: -25, delay: 200 }, 2200, 'easeOutQuad');
-		rubyFrame.transition({ opacity: 0, x: 25, delay: 100 }, 2250, 'easeOutQuad');
+		htmlTag.transition({ opacity: 0, x: -25, delay: 50 }, 500, 'easeOutQuad');
+		bootStrap.transition({ opacity: 0, x: 25, delay: 100 }, 550, 'easeOutQuad');
+		javaScript.transition({ opacity: 0, x: -25, delay: 150 }, 600, 'easeOutQuad');
+		angularJ.transition({ opacity: 0, x: 25, delay: 200 }, 650, 'easeOutQuad');
+		rubyLang.transition({ opacity: 0, x: -25, delay: 250 }, 700, 'easeOutQuad');
+		rubyFrame.transition({ opacity: 0, x: 25, delay: 300 }, 750, 'easeOutQuad');
 
-		testProg.transition({ opacity: 0, x: 25 }, 1500, 'easeOutQuad');
+		bearLeftArrow.transition({ opacity: 0, x: 25 }, 1000, 'easeOutQuad');
   	}
 );
-testProg.hover(
+bearLeftArrow.hover(
 	function() {
-		testProg.transition({ opacity: 1, scale: 1.02 }, 500, 'easeOutQuad');
+		bearLeftArrow.transition({ opacity: 1, scale: 1.02 }, 500, 'easeOutQuad');
 
-		htmlTag.transition({ opacity: 0.4, x: 10, delay: 100 }, 500, 'easeOutQuad');
-		bootStrap.transition({ opacity: 0.4, x: 10, delay: 200 }, 500, 'easeOutQuad');
-		javaScript.transition({ opacity: 0.4, x: 10, delay: 300 }, 500, 'easeOutQuad');
-		angularJ.transition({ opacity: 0.4, x: 10, delay: 400 }, 500, 'easeOutQuad');
-		rubyLang.transition({ opacity: 0.4, x: 10, delay: 500 }, 500, 'easeOutQuad');
-		rubyFrame.transition({ opacity: 0.4, x: 10, delay: 600 }, 500, 'easeOutQuad');
+		htmlTag.transition({ opacity: 0.4, x: 10, delay: 50 }, 350, 'easeOutQuad');
+		bootStrap.transition({ opacity: 0.4, x: 10, delay: 100 }, 350, 'easeOutQuad');
+		javaScript.transition({ opacity: 0.4, x: 10, delay: 150 }, 350, 'easeOutQuad');
+		angularJ.transition({ opacity: 0.4, x: 10, delay: 200 }, 350, 'easeOutQuad');
+		rubyLang.transition({ opacity: 0.4, x: 10, delay: 250 }, 350, 'easeOutQuad');
+		rubyFrame.transition({ opacity: 0.4, x: 10, delay: 300 }, 350, 'easeOutQuad');
 	}, function(){
-		testProg.transition({ opacity: 0.4, scale: 1 }, 500, 'easeOutQuad');
+		bearLeftArrow.transition({ opacity: 0.4, scale: 1 }, 500, 'easeOutQuad');
 
-		htmlTag.transition({ opacity: 1, x: 0, delay: 100 }, 500, 'easeOutQuad');
-		bootStrap.transition({ opacity: 1, x: 0, delay: 200 }, 500, 'easeOutQuad');
-		javaScript.transition({ opacity: 1, x: 0, delay: 300 }, 500, 'easeOutQuad');
-		angularJ.transition({ opacity: 1, x: 0, delay: 400 }, 500, 'easeOutQuad');
-		rubyLang.transition({ opacity: 1, x: 0, delay: 500 }, 500, 'easeOutQuad');
-		rubyFrame.transition({ opacity: 1, x: 0, delay: 600 }, 500, 'easeOutQuad');
+		htmlTag.transition({ opacity: 1, x: 0, delay: 50 }, 350, 'easeOutQuad');
+		bootStrap.transition({ opacity: 1, x: 0, delay: 100 }, 350, 'easeOutQuad');
+		javaScript.transition({ opacity: 1, x: 0, delay: 150 }, 350, 'easeOutQuad');
+		angularJ.transition({ opacity: 1, x: 0, delay: 200 }, 350, 'easeOutQuad');
+		rubyLang.transition({ opacity: 1, x: 0, delay: 250 }, 350, 'easeOutQuad');
+		rubyFrame.transition({ opacity: 1, x: 0, delay: 300 }, 350, 'easeOutQuad');
 	}
 );
 
@@ -124,7 +168,7 @@ testProg.hover(
 var bearPosition = $('.leftBearWrapper');
 bearPosition.height = window.innerHeight;
 bearPosition.width = window.innerWidth;
-testProg.click(function(){
+bearLeftArrow.click(function(){
 	leftBearWrapper.transition({ x: bearPosition.width / 2 }, 500, 'easeOutQuad');
 	rightRabbitWrapper.transition({ x: bearPosition.width / 2 }, 500, 'easeOutQuad');
 	bearCounter++;
@@ -139,6 +183,7 @@ testProg.click(function(){
 	cinema.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
 	seo.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
 	content.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
+	rabbitRightArrow.transition({ opacity: 0, x: -25,  rotate: '180deg' }, 10, 'easeOutQuad');
 
 									/* RABBIT ANIMATION */
 rightRabbitWrapper.hover(
@@ -146,25 +191,50 @@ rightRabbitWrapper.hover(
 		rabbitColor.transition({ opacity: 0.6, scale: 1.05 }, 1500, 'easeOutQuad');
 		rabbitStroke.transition({ opacity: 0.6, scale: 1.05 }, 1500, 'easeOutQuad');
 		
-		photoshop.transition({ opacity: 1, x: 0, delay: 100 }, 2000, 'easeOutQuad');
-		illustrator.transition({ opacity: 1, x: 0, delay: 200 }, 2050, 'easeOutQuad');
-		afterEffects.transition({ opacity: 1, x: 0, delay: 300 }, 2100, 'easeOutQuad');
-		cinema.transition({ opacity: 1, x: 0, delay: 400 }, 2150, 'easeOutQuad');
-		seo.transition({ opacity: 1, x: 0, delay: 500 }, 2200, 'easeOutQuad');
-		content.transition({ opacity: 1, x: 0, delay: 600 }, 2250, 'easeOutQuad');
+		photoshop.transition({ opacity: 1, x: 0, delay: 50 }, 500, 'easeOutQuad');
+		illustrator.transition({ opacity: 1, x: 0, delay: 100 }, 550, 'easeOutQuad');
+		afterEffects.transition({ opacity: 1, x: 0, delay: 150 }, 600, 'easeOutQuad');
+		cinema.transition({ opacity: 1, x: 0, delay: 200 }, 650, 'easeOutQuad');
+		seo.transition({ opacity: 1, x: 0, delay: 250 }, 700, 'easeOutQuad');
+		content.transition({ opacity: 1, x: 0, delay: 300 }, 750, 'easeOutQuad');
+
+		drawRightArrow();
+		rabbitRightArrow.transition({ opacity: 0.4, x: 0 }, 1000, 'easeOutQuad');
   	}, function() {
 		rabbitColor.transition({ opacity: 0, scale: 1 }, 1000, 'easeOutQuad');
 		rabbitStroke.transition({ opacity: 1, scale: 1 }, 1000, 'easeOutQuad');
 
-		photoshop.transition({ opacity: 0, x: -25, delay: 600 }, 2000, 'easeOutQuad');
-		illustrator.transition({ opacity: 0, x: 25, delay: 500 }, 2050, 'easeOutQuad');
-		afterEffects.transition({ opacity: 0, x: -25, delay: 400 }, 2100, 'easeOutQuad');
-		cinema.transition({ opacity: 0, x: 25, delay: 300 }, 2150, 'easeOutQuad');
-		seo.transition({ opacity: 0, x: -25, delay: 200 }, 2200, 'easeOutQuad');
-		content.transition({ opacity: 0, x: 25, delay: 100 }, 2250, 'easeOutQuad');
+		photoshop.transition({ opacity: 0, x: -25, delay: 50 }, 500, 'easeOutQuad');
+		illustrator.transition({ opacity: 0, x: 25, delay: 100 }, 550, 'easeOutQuad');
+		afterEffects.transition({ opacity: 0, x: -25, delay: 150 }, 600, 'easeOutQuad');
+		cinema.transition({ opacity: 0, x: 25, delay: 200 }, 650, 'easeOutQuad');
+		seo.transition({ opacity: 0, x: -25, delay: 250 }, 700, 'easeOutQuad');
+		content.transition({ opacity: 0, x: 25, delay: 300 }, 750, 'easeOutQuad');
+
+		rabbitRightArrow.transition({ opacity: 0, x: -25 }, 1000, 'easeOutQuad');
   	}
 );
+rabbitRightArrow.hover(
+	function() {
+		rabbitRightArrow.transition({ opacity: 1, scale: 1.02 }, 500, 'easeOutQuad');
 
+		photoshop.transition({ opacity: 0.4, x: -10, delay: 50 }, 350, 'easeOutQuad');
+		illustrator.transition({ opacity: 0.4, x: -10, delay: 100 }, 350, 'easeOutQuad');
+		afterEffects.transition({ opacity: 0.4, x: -10, delay: 150 }, 350, 'easeOutQuad');
+		cinema.transition({ opacity: 0.4, x: -10, delay: 200 }, 350, 'easeOutQuad');
+		seo.transition({ opacity: 0.4, x: -10, delay: 250 }, 350, 'easeOutQuad');
+		content.transition({ opacity: 0.4, x: -10, delay: 300 }, 350, 'easeOutQuad');
+	}, function(){
+		rabbitRightArrow.transition({ opacity: 0.4, scale: 1 }, 500, 'easeOutQuad');
+
+		photoshop.transition({ opacity: 1, x: 0, delay: 50 }, 350, 'easeOutQuad');
+		illustrator.transition({ opacity: 1, x: 0, delay: 150 }, 350, 'easeOutQuad');
+		afterEffects.transition({ opacity: 1, x: 0, delay: 200 }, 350, 'easeOutQuad');
+		cinema.transition({ opacity: 1, x: 0, delay: 250 }, 350, 'easeOutQuad');
+		seo.transition({ opacity: 1, x: 0, delay: 300 }, 350, 'easeOutQuad');
+		content.transition({ opacity: 1, x: 0, delay: 350 }, 350, 'easeOutQuad');
+	}
+);
 
 
 var c = document.getElementById("developer");
@@ -192,17 +262,4 @@ for(var x = 0; x < columns; x++)
 		};
 	};
 setInterval(draw, 160);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
