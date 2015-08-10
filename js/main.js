@@ -45,14 +45,14 @@ window.addEventListener("load", function load(event){
 },false);
 function delayedStart() {
 	// some function here
-	timeoutID = window.setTimeout(startApplication, 5000);
+	timeoutID = window.setTimeout(startApplication, 1000);
 	console.log('DELAYED START 3000MS DONE');
 }
 function startApplication () {
-	preloaderHider.transition({ x: 0 }, 5000, 'easeOutQuad');
+	preloaderHider.transition({ x: 0 }, 1000, 'easeOutQuad');
 	setTimeout(function() {
 		drawBear();
-	}, 3000);
+	}, 1000);
 	console.log('APP FIRES');
 };
 
@@ -62,14 +62,14 @@ var drawBear = function(){
 	rabbitStroke.transition({ opacity: 1 }, 200, 'easeOutQuad');
 	bearVivus = new Vivus('bearStrokeVivus', {
 	    type: 'async',
-	    duration: 300
+	    duration: 100
 		},
 	    function(){
 	    	console.log('BEAR SVG DONE');
     	});
 	rabbitVivus = new Vivus('rabbitStrokeVivus', {
 	    type: 'async',
-	    duration: 300
+	    duration: 100
 		},
 	    function(){
 	    	preloaderKill();
@@ -141,7 +141,7 @@ leftBearWrapper.hover(
 
 		bearLeftArrow.transition({ opacity: 0, x: 25 }, 1000, 'easeOutQuad');
   	}
-);
+);	
 bearLeftArrow.hover(
 	function() {
 		bearLeftArrow.transition({ opacity: 1, scale: 1.02 }, 500, 'easeOutQuad');
@@ -164,15 +164,43 @@ bearLeftArrow.hover(
 	}
 );
 
+
 									/* LEFT BEAR ANIMATION POSITION */
 var bearPosition = $('.leftBearWrapper');
 bearPosition.height = window.innerHeight;
 bearPosition.width = window.innerWidth;
 bearLeftArrow.click(function(){
-	leftBearWrapper.transition({ x: bearPosition.width / 2 }, 500, 'easeOutQuad');
-	rightRabbitWrapper.transition({ x: bearPosition.width / 2 }, 500, 'easeOutQuad');
-	bearCounter++;
+	if (bearCounter === 0) {
+		leftBearWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
+		rightRabbitWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
+		bearLeftArrow.transition({ rotate: '180deg' }, 500, 'easeOutQuad');
+		bearCounter++;	
+	} else if (bearCounter > 0){
+		leftBearWrapper.transition({ x: 0 }, 1000, 'easeOutQuad');
+		rightRabbitWrapper.transition({ x: 0 }, 1000, 'easeOutQuad');
+		bearLeftArrow.transition({ rotate: '0deg' }, 500, 'easeOutQuad');
+		bearCounter = 0;
+	};
 });
+
+var rabbitPosition = $('.rightRabbitWrapper');
+rabbitPosition.height = window.innerHeight;
+rabbitPosition.width = window.innerWidth;
+rabbitRightArrow.click(function(){
+	if (rabbitCounter === 0) {
+		leftBearWrapper.transition({ x: - rabbitPosition.width / 2 }, 1000, 'easeOutQuad');
+		rightRabbitWrapper.transition({ x: - rabbitPosition.width / 2 }, 1000, 'easeOutQuad');
+		rabbitRightArrow.transition({ rotate: '0deg' }, 500, 'easeOutQuad');
+		rabbitCounter++;	
+	} else if (rabbitCounter > 0){
+		leftBearWrapper.transition({ x: 0 }, 1000, 'easeOutQuad');
+		rightRabbitWrapper.transition({ x: 0 }, 1000, 'easeOutQuad');
+		rabbitRightArrow.transition({ rotate: '180deg' }, 500, 'easeOutQuad');
+		rabbitCounter = 0;
+	};
+});
+
+
 
 
 

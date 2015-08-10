@@ -111,21 +111,63 @@ p{
 	height: 100vh;
 	position: relative;
 }
-.leftBearWrapper{
+.thoughtsBearWrapper{
 	position: absolute;
+	z-index: -99;
 	top: 0px;
 	left: 0px;
 	bottom: 0px;
 	width: 50%;
 	height: 100vh;
 }
-.rightRabbitWrapper{
+.thoughtsRabbitWrapper{
 	position: absolute;
+	z-index: -99;
 	top: 0px;
 	right: 0px;
 	bottom: 0px;
 	width: 50%;
 	height: 100vh;
+}
+.leftBearWrapper{
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	width: 50%;
+	height: 100vh;
+	background-color: #FFF;
+}
+.thoughtsBigBear{
+	position: absolute;
+	z-index: 5;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+	width: 600px;
+}
+.thoughtsSmallBear{
+	position: absolute;
+	z-index: 5;
+	top: 250px;
+	bottom: 0px;
+	right: 0px;
+	margin: auto;
+	width: 100px;
+}
+
+.rightRabbitWrapper{
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 50%;
+	height: 100vh;
+	background-color: #FFF;
 }
 #developer{
 	position: absolute;
