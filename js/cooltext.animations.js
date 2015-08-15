@@ -1,0 +1,2 @@
+
+;if(typeof cool_animations==="undefined")cool_animations=[];cool_animations=[{"name":"cool16","steps":[{"type":"starting_values","o":0,"tox":50,"toy":50,"toz":0,"p":0,"xt":"random","x":0,"x1":-200,"x2":200,"yt":"random","y":0,"y1":-200,"y2":200,"rx":0,"ry":0,"rz":-360,"sx":0,"sy":0,"e":"Linear.easeNone","start_at":0,"time":0},{"type":"animation","o":1,"tox":10,"toy":90,"toz":-6,"p":163,"xt":"value","x":0,"x1":-200,"x2":200,"yt":"value","y":0,"y1":-200,"y2":200,"rx":-360,"ry":0,"rz":-360,"sx":1,"sy":1,"e":"Sine.easeOut","time":0.7,"stagger":0.05,"start_at":1}]}];

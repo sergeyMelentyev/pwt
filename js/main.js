@@ -8,8 +8,15 @@ var bearVivus,
 	preloaderHider = $('.preloaderHider'),
 	preloaderWrapper = $('.preloaderWrapper'),
 
-	bearCounter = 0,
-	rabbitCounter = 0,
+	thoughtsBearWrapper = $('.thoughtsBearWrapper'),
+	thoughtsRabbitWrapper = $('.thoughtsRabbitWrapper'),
+	firstThoughtBearMover = $('.firstThoughtBearMover'),
+	secondThoughtBearMover = $('.secondThoughtBearMover'),
+	thirdThoughtBearMover = $('.thirdThoughtBearMover'),
+	firstThoughtBear = $('.firstThoughtBear'),
+	secondThoughtBear = $('.secondThoughtBear'),
+	thirdThoughtBear = $('.thirdThoughtBear'),
+	fourthThoughtBear = $('.fourthThoughtBear'),
 
 	bearLeftArrow = $('#bearLeftArrow'),
 	rabbitRightArrow = $('#rabbitRightArrow'),
@@ -109,7 +116,7 @@ javaScript.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
 angularJ.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
 rubyLang.transition({ opacity: 0, x: -25 }, 10, 'easeOutQuad');
 rubyFrame.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
-bearLeftArrow.transition({ opacity: 0, x: 25 }, 10, 'easeOutQuad');
+bearLeftArrow.transition({ opacity: 0 }, 10, 'easeOutQuad');
 
 									/* BEAR ANIMATION */
 leftBearWrapper.hover(
@@ -126,7 +133,7 @@ leftBearWrapper.hover(
 		rubyFrame.transition({ opacity: 1, x: 0, delay: 300 }, 750, 'easeOutQuad');
 		
 		drawLeftArrow();
-		bearLeftArrow.transition({ opacity: 0.4, x: 0 }, 1000, 'easeOutQuad');
+		bearLeftArrow.transition({ opacity: 0.4 }, 1000, 'easeOutQuad');
   	}, function() {
 		bearColor.transition({ opacity: 0, scale: 1 }, 1000, 'easeOutQuad');
 		bearStroke.transition({ opacity: 1, scale: 1 }, 1000, 'easeOutQuad');
@@ -139,7 +146,7 @@ leftBearWrapper.hover(
 		rubyLang.transition({ opacity: 0, x: -25, delay: 250 }, 700, 'easeOutQuad');
 		rubyFrame.transition({ opacity: 0, x: 25, delay: 300 }, 750, 'easeOutQuad');
 
-		bearLeftArrow.transition({ opacity: 0, x: 25 }, 1000, 'easeOutQuad');
+		bearLeftArrow.transition({ opacity: 0 }, 1000, 'easeOutQuad');
   	}
 );	
 bearLeftArrow.hover(
@@ -165,23 +172,88 @@ bearLeftArrow.hover(
 );
 
 
-									/* LEFT BEAR ANIMATION POSITION */
+									/* BEAR THOUGHTS START ANIMATION */
 var bearPosition = $('.leftBearWrapper');
 bearPosition.height = window.innerHeight;
 bearPosition.width = window.innerWidth;
 bearLeftArrow.click(function(){
-	if (bearCounter === 0) {
-		leftBearWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
-		rightRabbitWrapper.transition({ x: bearPosition.width / 2 }, 1000, 'easeOutQuad');
-		bearLeftArrow.transition({ rotate: '180deg' }, 500, 'easeOutQuad');
-		bearCounter++;	
-	} else if (bearCounter > 0){
-		leftBearWrapper.transition({ x: 0 }, 1000, 'easeOutQuad');
-		rightRabbitWrapper.transition({ x: 0 }, 1000, 'easeOutQuad');
-		bearLeftArrow.transition({ rotate: '0deg' }, 500, 'easeOutQuad');
-		bearCounter = 0;
-	};
+	leftBearWrapper.transition({ x: bearPosition.width }, 1000, 'easeOutQuad');
+	rightRabbitWrapper.transition({ x: bearPosition.width }, 1000, 'easeOutQuad');
+	firstThoughtBearFunc();
 });
+
+									/* BEAR THOUGHTS FINAL ANIMATION */
+var firstThoughtBearFunc = function(){
+	thoughtsBearWrapper.css({'visibility': 'initial'});
+	firstThoughtBearMover.transition({ y: -75 }, 10000, 'easeOutQuad');
+	firstThoughtBear.cooltext({
+		sequence:[
+			{
+				action: "animation",
+				animation: "cool16",
+				order: "random",
+				speed: 50,
+				stagger: 150
+			}
+		],
+		onComplete: function(){
+			setTimeout(function() {
+				firstThoughtBear.transition({ y: -50, opacity: 0 }, 1000, 'easeOutQuad');
+				secondThoughtBearFunc();
+			}, 1000);
+		}
+	});
+};
+
+var secondThoughtBearFunc = function(){
+	secondThoughtBearMover.transition({ y: -75 }, 10000, 'easeOutQuad');
+	secondThoughtBear.cooltext({
+		sequence:[
+			{
+				action: "animation",
+				animation: "cool16",
+				order: "random",
+				speed: 50,
+				stagger: 150,
+				delay: 1
+			}
+		],
+		onComplete: function(){
+			setTimeout(function() {
+				secondThoughtBear.transition({ y: -30, opacity: 0 }, 1500, 'easeOutQuad');
+				thirdThoughtBearFunc();
+			}, 1000);
+		}
+	});
+};
+
+var thirdThoughtBearFunc = function(){
+	thirdThoughtBearMover.transition({ y: -100 }, 15000, 'easeOutQuad');
+	thirdThoughtBear.cooltext({
+		sequence:[
+			{
+				action: "animation",
+				animation: "cool16",
+				order: "random",
+				speed: 75,
+				stagger: 500,
+				delay: 1
+			}
+		],
+		onComplete: function(){
+			setTimeout(function() {
+				thirdThoughtBear.transition({ y: -30, opacity: 0 }, 1500, 'easeOutQuad');
+				fourthThoughtBearFunc();
+			}, 4000);
+		}
+	});
+};
+
+var fourthThoughtBearFunc = function(){
+	fourthThoughtBear.css({'visibility': 'initial'});
+	fourthThoughtBear.transition({ y: 10, opacity: 1 }, 1000, 'easeOutQuad');
+};
+
 
 var rabbitPosition = $('.rightRabbitWrapper');
 rabbitPosition.height = window.innerHeight;
@@ -263,6 +335,38 @@ rabbitRightArrow.hover(
 		content.transition({ opacity: 1, x: 0, delay: 350 }, 350, 'easeOutQuad');
 	}
 );
+
+
+									/* CODE INFORMATIO SIDE */
+
+/*
+$("#elementID").cooltext({
+   sequence:[
+      {
+         action:"animation",
+         animation:"cool79",
+         stagger:100
+      }
+   ],
+   pauseOnMouseOver:true, // stops animations sequence on mouse over
+   resumeOnMouseOut:true, // resume animations sequence on mouse out
+});
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 var c = document.getElementById("developer");
