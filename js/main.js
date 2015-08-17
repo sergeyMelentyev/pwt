@@ -2,6 +2,7 @@
 									/* VARIABLES */
 var bearVivus,
 	rabbitVivus,
+	customWebVivus,
 	leftArrowVivus,
 	rightArrowVivus,
 	timeoutID,
@@ -17,6 +18,13 @@ var bearVivus,
 	secondThoughtBear = $('.secondThoughtBear'),
 	thirdThoughtBear = $('.thirdThoughtBear'),
 	fourthThoughtBear = $('.fourthThoughtBear'),
+	thoughtsBearSvgLeft = $('#thoughtsBearSvgLeft'),
+	thoughtsBearImageWrapper = $('.thoughtsBearImageWrapper'),
+	thoughtsBearImageLeft = $('.thoughtsBearImageLeft'),
+	thoughtsBearPngLeft = $('.thoughtsBearPngLeft'),
+	thoughtsBearImageLeftWrapper = $('.thoughtsBearImageLeftWrapper'),
+	thoughtsBearTextLeftWrapper = $('.thoughtsBearTextLeftWrapper'),
+	customWebWrapper = $('.customWebWrapper'),
 
 	bearLeftArrow = $('#bearLeftArrow'),
 	rabbitRightArrow = $('#rabbitRightArrow'),
@@ -206,6 +214,7 @@ var firstThoughtBearFunc = function(){
 };
 
 var secondThoughtBearFunc = function(){
+	firstThoughtBearMover.css({'visibility': 'hidden'});
 	secondThoughtBearMover.transition({ y: -75 }, 10000, 'easeOutQuad');
 	secondThoughtBear.cooltext({
 		sequence:[
@@ -222,12 +231,13 @@ var secondThoughtBearFunc = function(){
 			setTimeout(function() {
 				secondThoughtBear.transition({ y: -30, opacity: 0 }, 1500, 'easeOutQuad');
 				thirdThoughtBearFunc();
-			}, 1000);
+			}, 1500);
 		}
 	});
 };
 
 var thirdThoughtBearFunc = function(){
+	secondThoughtBearMover.css({'visibility': 'hidden'});
 	thirdThoughtBearMover.transition({ y: -100 }, 15000, 'easeOutQuad');
 	thirdThoughtBear.cooltext({
 		sequence:[
@@ -249,9 +259,38 @@ var thirdThoughtBearFunc = function(){
 	});
 };
 
+
+									/* CODE GALLARY START ANIMATION POSITION */
+thoughtsBearSvgLeft.transition({ scale: 0.95, opacity: 0 }, 10, 'easeOutQuad');
+thoughtsBearPngLeft.transition({ scale: 0.95, opacity: 0 }, 10, 'easeOutQuad');
+customWebWrapper.transition({ x: -15, opacity: 0 }, 10, 'easeOutQuad');
+
 var fourthThoughtBearFunc = function(){
-	fourthThoughtBear.css({'visibility': 'initial'});
-	fourthThoughtBear.transition({ y: 10, opacity: 1 }, 1000, 'easeOutQuad');
+	fourthThoughtBear.transition({ y: 20, opacity: 1 }, 1500, 'easeOutQuad');
+	thoughtsBearPngLeft.transition({ scale: 0.95, opacity: 0.2 }, 750, 'easeOutQuad');
+	thoughtsBearTextLeftWrapper.transition({ opacity: 0.2 }, 750, 'easeOutQuad');
+	thoughtsBearWrapper.css({'z-index': '9'});
+	thoughtsBearImageWrapper.css({'visibility': 'initial'});
+	thoughtsBearImageLeftWrapper.hover(
+		function() {
+			thoughtsBearTextLeftWrapper.transition({ opacity: 1 }, 750, 'easeOutQuad');
+			thoughtsBearSvgLeft.transition({ scale: 1, opacity: 1 }, 750, 'easeOutQuad');
+			thoughtsBearPngLeft.transition({ scale: 1, opacity: 1 }, 750, 'easeOutQuad');
+			customWebVivus = new Vivus('thoughtsBearSvgLeft', {
+			    type: 'async',
+			    duration: 50
+			},
+		    function(){
+		    	console.log('CUSTOM WEB');
+	    	});
+	    	customWebWrapper.transition({ x: 0, opacity: 1 }, 750, 'easeOutQuad');
+		}, function(){
+			thoughtsBearTextLeftWrapper.transition({ opacity: 0.2 }, 750, 'easeOutQuad');
+			thoughtsBearSvgLeft.transition({ scale: 0.95, opacity: 0 }, 750, 'easeOutQuad');
+			thoughtsBearPngLeft.transition({ scale: 0.95, opacity: 0.2 }, 750, 'easeOutQuad');
+			customWebWrapper.transition({ x: -15, opacity: 0 }, 750, 'easeOutQuad');
+		}
+	);
 };
 
 
@@ -337,21 +376,9 @@ rabbitRightArrow.hover(
 );
 
 
-									/* CODE INFORMATIO SIDE */
+									/* CODE INFORMATION SIDE */
 
-/*
-$("#elementID").cooltext({
-   sequence:[
-      {
-         action:"animation",
-         animation:"cool79",
-         stagger:100
-      }
-   ],
-   pauseOnMouseOver:true, // stops animations sequence on mouse over
-   resumeOnMouseOut:true, // resume animations sequence on mouse out
-});
-*/
+
 
 
 
