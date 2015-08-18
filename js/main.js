@@ -422,3 +422,15 @@ for(var x = 0; x < columns; x++)
 	};
 setInterval(draw, 160);
 
+		//Hide arrows while scrolling
+/*
+    $(window).on('scroll', function(){
+    $('.scroll-to').hide();
+
+    clearTimeout($(this).data('timer'));
+
+    $(this).data('timer', setTimeout(function() {
+        $('.scroll-to').show();
+    }, 300));
+});
+*/
