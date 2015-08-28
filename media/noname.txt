@@ -37,59 +37,105 @@ http://www.rep24.ru
 Предмет min 450 рублей max 1000 рублей за 60 мин
 ЕГЭ от 1000 рублей за 90 мин
 
+
+
+
+
+
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.2" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
 	 x="0px" y="0px" viewBox="0 0 1000 1000" xml:space="preserve">
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="756.4" y1="865.9" x2="525.3" y2="570.7"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="523.3" y1="572.1" x2="955.1" y2="142.3"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="955.1" y1="142.3" x2="357.4" y2="75.9"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="357.4" y1="75.9" x2="477.9" y2="375.2"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="477.9" y1="375.2" x2="185.7" y2="685"/>
+<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="185.7" y1="685" x2="528" y2="570.7"/>
 <g>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="197.4,0 199.9,105 304.9,107.5 199.9,110 197.4,215 195,110 89.9,107.5 
-		195,105 	"/>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="143.7,53.8 197.4,105.5 251.2,53.8 199.4,107.5 251.2,161.3 197.4,109.5 
-		143.7,161.3 195.4,107.5 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="258.2,212.5 260.1,291.1 338.7,293 260.1,294.8 258.2,373.4 256.4,294.8 
+		177.8,293 256.4,291.1 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="218,252.7 258.2,291.5 298.5,252.7 259.7,293 298.5,333.2 258.2,294.5 
+		218,333.2 256.7,293 	"/>
 </g>
 <g>
-	<image width="699" height="699" xlink:href="96BC678BC1145BB3.png"  transform="matrix(0.24 0 0 0.24 473.8754 394.6557)">
+	<image width="524" height="524" xlink:href="AB277079829EB321.png"  transform="matrix(0.24 0 0 0.24 465.1806 507.9161)">
 	</image>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="651.1,383.7 560.4,480.3 652.6,575.4 556,484.7 460.8,576.9 551.6,480.3 
-		459.4,385.2 555.9,475.9 	"/>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="555.2,384.4 557.7,478.5 651.8,479.6 557.8,482.1 556.7,576.2 554.2,482.1 
-		460.1,481 554.2,478.5 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="597.9,499.7 529.9,572 599,643.2 526.7,575.3 455.4,644.3 523.3,572.1 
+		454.3,500.8 526.6,568.7 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="526.1,500.3 528,570.7 598.4,571.5 528,573.3 527.2,643.8 525.3,573.4 
+		454.9,572.6 525.3,570.7 	"/>
 </g>
 <g>
-	<image width="366" height="366" xlink:href="96BC678BC1145BB1.png"  transform="matrix(0.24 0 0 0.24 483.117 746.5016)">
+	<image width="274" height="274" xlink:href="AB277079829EB323.png"  transform="matrix(0.24 0 0 0.24 472.0988 771.303)">
 	</image>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="575.9,740.8 528.4,791.3 576.6,841.1 526.1,793.6 476.3,841.9 523.8,791.4 
-		475.5,741.5 526.1,789 	"/>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="525.7,741.2 527,790.4 576.3,790.9 527,792.2 526.5,841.5 525.2,792.3 
-		475.9,791.7 525.2,790.4 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="541.5,767 506,804.8 542.1,842.1 504.3,806.6 467,842.7 502.5,804.9 
+		466.4,767.6 504.3,803.1 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="504,767.3 505,804.2 541.8,804.6 505,805.5 504.5,842.4 503.6,805.6 
+		466.7,805.1 503.6,804.2 	"/>
 </g>
 <g>
-	<image width="366" height="366" xlink:href="96BC678BC1145BB7.png"  transform="matrix(0.24 0 0 0.24 57.5905 584.0311)">
+	<image width="274" height="274" xlink:href="AB277079829EB326.png"  transform="matrix(0.24 0 0 0.24 445.7646 339.8815)">
 	</image>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="150.4,578.3 102.9,628.8 151.1,678.7 100.6,631.2 50.8,679.4 98.3,628.9 
-		50,579.1 100.5,626.6 	"/>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="100.2,578.7 101.5,627.9 150.7,628.5 101.5,629.8 100.9,679 99.6,629.8 
-		50.4,629.2 99.6,627.9 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="515.2,335.6 479.6,373.4 515.8,410.7 477.9,375.2 440.7,411.3 476.2,373.5 
+		440.1,336.2 477.9,371.7 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="477.6,335.9 478.6,372.7 515.5,373.1 478.6,374.1 478.2,411 477.2,374.1 
+		440.4,373.7 477.2,372.7 	"/>
 </g>
 <g>
-	<image width="699" height="699" xlink:href="96BC678BC1145BB0.png"  transform="matrix(0.24 0 0 0.24 782.632 789.0042)">
+	<image width="274" height="274" xlink:href="AB277079829EB327.png"  transform="matrix(0.24 0 0 0.24 329.9186 43.6475)">
 	</image>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="959.9,778 869.1,874.6 961.3,969.8 864.8,879 769.6,971.2 860.3,874.7 
-		768.1,779.5 864.7,870.3 	"/>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="864,778.8 866.5,872.9 960.6,873.9 866.5,876.4 865.5,970.5 863,876.4 
-		768.9,875.4 862.9,872.9 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="399.4,39.4 363.8,77.2 399.9,114.5 362.1,78.9 324.8,115.1 360.4,77.2 
+		324.2,39.9 362.1,75.5 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="361.8,39.6 362.8,76.5 399.6,76.9 362.8,77.9 362.4,114.8 361.4,77.9 
+		324.5,77.5 361.4,76.5 	"/>
 </g>
 <g>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="253.5,902.6 207.5,951.6 254.3,999.9 205.3,953.9 157,1000.7 203,951.7 
-		156.2,903.4 205.2,949.4 	"/>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="204.9,903 206.1,950.7 253.9,951.3 206.2,952.5 205.6,1000.3 204.4,952.6 
-		156.6,952 204.3,950.8 	"/>
+	<image width="274" height="274" xlink:href="AB277079829EB322.png"  transform="matrix(0.24 0 0 0.24 153.5557 649.6798)">
+	</image>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="223,645.4 187.4,683.2 223.6,720.5 185.7,685 148.4,721.1 184,683.3 
+		147.9,646 185.7,681.5 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="185.4,645.7 186.4,682.5 223.3,682.9 186.4,683.9 186,720.8 185,683.9 
+		148.2,683.5 185,682.5 	"/>
 </g>
 <g>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="907.1,131.9 861.1,180.8 907.9,229.1 858.9,183.1 810.6,229.9 856.7,180.9 
-		809.9,132.6 858.9,178.6 	"/>
-	<polygon fill-rule="evenodd" fill="#FFFFFF" points="858.5,132.2 859.8,180 907.5,180.5 859.8,181.8 859.3,229.5 858,181.8 
-		810.2,181.2 858,180 	"/>
+	<image width="274" height="274" xlink:href="AB277079829EB32D.png"  transform="matrix(0.24 0 0 0.24 924.6417 108.6923)">
+	</image>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="994.1,104.4 958.5,142.2 994.7,179.5 956.8,144 919.5,180.1 955.1,142.3 
+		919,105 956.8,140.5 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="956.5,104.7 957.5,141.5 994.4,142 957.5,142.9 957.1,179.8 956.1,143 
+		919.2,142.5 956.1,141.6 	"/>
+</g>
+<g>
+	<image width="524" height="524" xlink:href="AB277079829EB32E.png"  transform="matrix(0.24 0 0 0.24 696.3114 803.1198)">
+	</image>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="829,794.9 761.1,867.2 830.1,938.5 757.8,870.5 686.5,939.5 754.5,867.3 
+		685.5,796 757.7,863.9 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="757.2,795.5 759.1,865.9 829.5,866.7 759.1,868.6 758.3,939 756.4,868.6 
+		686,867.8 756.4,865.9 	"/>
+</g>
+<g>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="58,420.3 33.7,446.2 58.4,471.7 32.5,447.3 7,472.1 31.3,446.2 6.6,420.7 
+		32.5,445 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="32.3,420.5 33,445.7 58.2,446 33,446.6 32.7,471.9 32,446.6 6.8,446.4 
+		32,445.7 	"/>
+</g>
+<g>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="300.2,888.2 265.8,924.9 300.8,961 264.1,926.5 228,961.6 262.4,924.9 
+		227.4,888.7 264.1,923.2 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="263.8,888.5 264.8,924.2 300.5,924.6 264.8,925.5 264.4,961.3 263.4,925.6 
+		227.7,925.2 263.4,924.2 	"/>
+</g>
+<g>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="899,601.6 864.6,638.3 899.6,674.4 862.9,640 826.8,675 861.2,638.3 
+		826.2,602.2 862.9,636.6 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="862.6,601.9 863.6,637.6 899.3,638 863.6,639 863.2,674.7 862.2,639 
+		826.5,638.6 862.2,637.6 	"/>
+</g>
+<g>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="759.5,221.2 725.1,257.9 760.1,294 723.4,259.5 687.3,294.6 721.7,257.9 
+		686.7,221.7 723.4,256.2 	"/>
+	<polygon fill-rule="evenodd" fill="#FFFFFF" points="723.1,221.5 724.1,257.2 759.8,257.6 724.1,258.5 723.7,294.3 722.7,258.6 
+		687,258.2 722.7,257.2 	"/>
 </g>
 </svg>
-
