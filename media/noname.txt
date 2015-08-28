@@ -1,6 +1,12 @@
-http://codepen.io/invictus1002/pen/GpKNJR
-http://codepen.io/airen/pen/YXmLpJ
-http://codepen.io/marco_fugaro/pen/yNGJXE
+http://codepen.io/invictus1002/pen/GpKNJR                 // Canvas abstract
+http://codepen.io/airen/pen/YXmLpJ                        // Rotate boxes
+http://codepen.io/marco_fugaro/pen/yNGJXE                 // Page tilt menu effect
+http://codepen.io/KenFalcon/pen/OVKOZB                    // D3.JS
+http://codepen.io/eehayman/pen/qdGZJr                     // Full page parallax
+http://codepen.io/davilious/pen/rFHLb                     // Form animation before validation
+http://codepen.io/simoberny/pen/qdwaeZ                    // Slide to unlock
+http://codepen.io/brandonkennedy/pen/XbQdbW               // Browser detect
+http://codepen.io/Yakudoo/pen/LVyJXw                      // >Three.js funny animation
 
 
 Mathematical Foundations of Computer Networking (Addison-Wesley Professional Computing Series)
