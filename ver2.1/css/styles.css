@@ -1,0 +1,222 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 
+(http://meyerweb.com/
+eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: 'Open Sans Condensed', sans-serif;
+	overflow: hidden;
+	color: #5A5A5A;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+.topWrapper{
+	position: absolute;
+	z-index: 99;
+	width: 100%;
+	height: 40%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+.topInternalWrapper{
+	position: absolute;
+	width: 450px;
+	height: 150px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+}
+.topInternalWrapper img{
+	width: 150px;
+	float: left;
+}
+.leftWrapper{
+	position: absolute;
+	z-index: 999;
+	width: 25%;
+	height: 100vh;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+.leftInternalWrapper{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+}
+.leftInternalWrapper img:first-child{
+	position: absolute;
+	width: 150px;
+	left: 0px;
+}
+.leftInternalWrapper img:last-child{
+	position: absolute;
+	width: 150px;
+	right: 0px;
+}
+.rightWrapper{
+	position: absolute;
+	z-index: 999;
+	width: 25%;
+	height: 100vh;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+.rightInternalWrapper{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+}
+.rightInternalWrapper img{
+	position: absolute;
+	width: 150px;
+	left: 0px;
+}
+.constantText {
+	position: absolute;
+	z-index: 999;
+	bottom: 50px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	width: 590px;
+	text-shadow: 0px 0px 5px #000, 0px 0px 10px #fff;
+	font-size: 30px;
+	line-height: 60px;
+	color: #fff;
+	text-align: center;
+}
+.htmlClass,
+.cssClass,
+.jsClass,
+.angularLeftClass,
+.angularRightClass,
+.rubyClass{
+	opacity: 0;
+}
+.myLayersText{
+	position: absolute;
+	opacity: 0;
+	z-index: 999;
+	top: 150px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	width: 590px;
+	height: 60px;
+	text-shadow: 0px 0px 5px #000, 0px 0px 10px #fff;
+	font-size: 30px;
+	line-height: 60px;
+	color: #fff;
+	text-align: center;
+}
+.topText{
+	position: absolute;
+	opacity: 0;
+	z-index: 999;
+	bottom: 50px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	width: 590px;
+	text-shadow: 0px 0px 5px #000, 0px 0px 10px #fff;
+	font-size: 30px;
+	line-height: 60px;
+	color: #fff;
+	text-align: center;
+}
+.leftText{
+	position: absolute;
+	opacity: 0;
+	z-index: 999;
+	bottom: 50px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	width: 590px;
+	text-shadow: 0px 0px 5px #000, 0px 0px 10px #fff;
+	font-size: 30px;
+	line-height: 60px;
+	color: #fff;
+	text-align: center;
+}
+.rightText{
+	position: absolute;
+	opacity: 0;
+	z-index: 999;
+	bottom: 50px;
+	right: 0px;
+	left: 0px;
+	margin: auto;
+	width: 460px;
+	text-shadow: 0px 0px 5px #000, 0px 0px 10px #fff;
+	font-size: 30px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+}
+#world {
+  background: #e0dacd;
+  position:absolute;
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
