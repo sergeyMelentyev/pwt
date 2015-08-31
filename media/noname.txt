@@ -1,15 +1,4 @@
-http://codepen.io/invictus1002/pen/GpKNJR                 // Canvas abstract
-http://codepen.io/airen/pen/YXmLpJ                        // Rotate boxes
-http://codepen.io/marco_fugaro/pen/yNGJXE                 // Page tilt menu effect
-http://codepen.io/KenFalcon/pen/OVKOZB                    // D3.JS
-http://codepen.io/eehayman/pen/qdGZJr                     // Full page parallax
-http://codepen.io/davilious/pen/rFHLb                     // Form animation before validation
-http://codepen.io/simoberny/pen/qdwaeZ                    // Slide to unlock
-http://codepen.io/brandonkennedy/pen/XbQdbW               // Browser detect
-http://codepen.io/Yakudoo/pen/LVyJXw                      // >Three.js funny animation
-
 https://www.jetbrains.com/idea/
-http://www.lynda.com/Java-tutorials/Java-Essential-Training/377484-2.html
 
 Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley)
 Data Visualization with D3 and AngularJS
@@ -24,19 +13,17 @@ Iron-Clad Java (Oracle)
 Mastering Lambdas (Oracle)
 
 http://tyumen.repetitors.info
-Регистрация бесплатно, далее комиссия в размера одного разового занятия.
-
 http://tyumen.teacherguild.ru
-Регистрация бесплатно, далее комиссия в размера одного разового занятия.
-
 http://tumen.mir-repetitorov.ru
-Регистрация бесплатно, далее комиссия в размера одного разового занятия.
-
 http://tumen.high-ball.ru
-Регистрация бесплатно, далее комиссия в размера одного разового занятия.
-
 http://www.rep24.ru
-Это доска объявлений, подача видимо бесплатно. Цен найти не удалось.
 
-Предмет min 450 рублей max 1000 рублей за 60 мин
-ЕГЭ от 1000 рублей за 90 мин
+http://codepen.io/invictus1002/pen/GpKNJR                 // Canvas abstract
+http://codepen.io/airen/pen/YXmLpJ                        // Rotate boxes
+http://codepen.io/marco_fugaro/pen/yNGJXE                 // Page tilt menu effect
+http://codepen.io/KenFalcon/pen/OVKOZB                    // D3.JS
+http://codepen.io/eehayman/pen/qdGZJr                     // Full page parallax
+http://codepen.io/davilious/pen/rFHLb                     // Form animation before validation
+http://codepen.io/simoberny/pen/qdwaeZ                    // Slide to unlock
+http://codepen.io/brandonkennedy/pen/XbQdbW               // Browser detect
+http://codepen.io/Yakudoo/pen/LVyJXw                      // Three.js funny animation
