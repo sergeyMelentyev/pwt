@@ -8,15 +8,18 @@ http://codepen.io/simoberny/pen/qdwaeZ                    // Slide to unlock
 http://codepen.io/brandonkennedy/pen/XbQdbW               // Browser detect
 http://codepen.io/Yakudoo/pen/LVyJXw                      // >Three.js funny animation
 
+https://www.jetbrains.com/idea/
+http://www.lynda.com/Java-tutorials/Java-Essential-Training/377484-2.html
 
-Mathematical Foundations of Computer Networking (Addison-Wesley Professional Computing Series)
-
-Intro to Java Programming, Brief Version 10th Edition
-Intro to Java Programming, Comprehensive Version 10th Edition
-
-
-Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley Data & Analytics Series)
-
+Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley)
+Java: A Beginner's Guide, Sixth Edition (Oracle)
+Java: The Complete Reference, Ninth Edition (Oracle)
+Java EE 7: The Big Picture (Oracle)
+Java EE and HTML5 Enterprise Application Development (Oracle)
+Java WebSocket Programming (Oracle)
+Java EE Applications on Oracle Java Cloud (Oracle)
+Iron-Clad Java (Oracle)
+Mastering Lambdas (Oracle)
 
 http://tyumen.repetitors.info
 Регистрация бесплатно, далее комиссия в размера одного разового занятия.
@@ -35,6 +38,3 @@ http://www.rep24.ru
 
 Предмет min 450 рублей max 1000 рублей за 60 мин
 ЕГЭ от 1000 рублей за 90 мин
-
-
-
