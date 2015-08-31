@@ -11,11 +11,9 @@ http://codepen.io/Yakudoo/pen/LVyJXw                      // >Three.js funny ani
 
 Mathematical Foundations of Computer Networking (Addison-Wesley Professional Computing Series)
 
-Ruby on Rails Tutorial: Learn Web Development with Rails (3rd Edition) (Addison-Wesley Professional Ruby Series)
-The Ruby Way: Solutions and Techniques in Ruby Programming (3rd Edition) (Addison-Wesley Professional Ruby Series)
-Learn Ruby the Hard Way: A Simple and Idiomatic Introduction to the Imaginative World Of Computational Thinking with Code (3rd Edition) (Zed Shaw's Hard Way Series)
-Effective Ruby: 48 Specific Ways to Write Better Ruby (Effective Software Development Series)
-The Rails 4 Way (3rd Edition) (Addison-Wesley Professional Ruby Series)
+Intro to Java Programming, Brief Version 10th Edition
+Intro to Java Programming, Comprehensive Version 10th Edition
+
 
 Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley Data & Analytics Series)
 
