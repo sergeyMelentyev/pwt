@@ -68,6 +68,8 @@ http://tumen.mir-repetitorov.ru
 http://tumen.high-ball.ru
 http://www.rep24.ru
 
+http://codepen.io/ge1doot/pen/bdQXjJ                      // Draw a tree in canvas
+http://codepen.io/chrisgannon/pen/jPwvYy                  // SVG loader
 http://codepen.io/invictus1002/pen/GpKNJR                 // Canvas abstract
 http://codepen.io/airen/pen/YXmLpJ                        // Rotate boxes
 http://codepen.io/marco_fugaro/pen/yNGJXE                 // Page tilt menu effect
