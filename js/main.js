@@ -1,4 +1,12 @@
  "use strict";
+ /*
+var interval = setInterval(function() {
+    if(document.readyState === 'complete') {
+        clearInterval(interval);
+        done();
+    }    
+}, 100);
+ */
 									/* VARIABLES */
 var bearVivus,
 	rabbitVivus,
