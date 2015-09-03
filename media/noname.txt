@@ -56,6 +56,7 @@
 
 
 https://www.jetbrains.com/idea/
+JavaScript and HTML5 Now
 Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley)
 Data Visualization with D3 and AngularJS
 
