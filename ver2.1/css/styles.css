@@ -132,11 +132,13 @@ a{
 .constantText {
 	position: absolute;
 	z-index: 999;
-	bottom: 50px;
+	top: 150px;
+	bottom: 0px;
 	right: 0px;
 	left: 0px;
 	margin: auto;
 	width: 590px;
+	height: 60px;
 	text-shadow: 0px 0px 5px #000, 0px 0px 10px #fff;
 	font-size: 30px;
 	line-height: 60px;
@@ -155,8 +157,7 @@ a{
 	position: absolute;
 	opacity: 0;
 	z-index: 999;
-	top: 150px;
-	bottom: 0px;
+	bottom: 120px;
 	right: 0px;
 	left: 0px;
 	margin: auto;
@@ -172,7 +173,7 @@ a{
 	position: absolute;
 	opacity: 0;
 	z-index: 999;
-	bottom: 50px;
+	bottom: 75px;
 	right: 0px;
 	left: 0px;
 	margin: auto;
@@ -187,7 +188,7 @@ a{
 	position: absolute;
 	opacity: 0;
 	z-index: 999;
-	bottom: 50px;
+	bottom: 75px;
 	right: 0px;
 	left: 0px;
 	margin: auto;
@@ -202,16 +203,36 @@ a{
 	position: absolute;
 	opacity: 0;
 	z-index: 999;
-	bottom: 50px;
+	bottom: 75px;
 	right: 0px;
 	left: 0px;
 	margin: auto;
-	width: 460px;
+	width: 900px;
 	text-shadow: 0px 0px 5px #000, 0px 0px 10px #fff;
 	font-size: 30px;
-	line-height: 40px;
+	line-height: 60px;
 	color: #fff;
 	text-align: center;
+}
+.contacts{
+	position: absolute;
+	z-index: 999;
+	width: 160px;
+	height: 50px;
+	bottom: 10px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+}
+.contacts a{
+	float: left;
+	margin-right: 5px;
+}
+.contacts a:last-child{
+	margin-right: 0px;
+}
+.contacts img{
+	width: 50px;
 }
 #world {
   background: #e0dacd;

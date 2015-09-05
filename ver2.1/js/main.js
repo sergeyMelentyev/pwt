@@ -10,7 +10,6 @@ var topWrapper = $('.topWrapper'),
     angularRightClass = $('.angularRightClass'),
     rubyClass = $('.rubyClass'),
 
-    constantText = $('.constantText'),
     myLayersText = $('.myLayersText'),
     topText = $('.topText'),
     leftText = $('.leftText'),
@@ -32,7 +31,6 @@ topWrapper.hover(
     cssClass.transition({ y: 0, opacity: 1 }, 1000, 'easeOutQuad');
     jsClass.transition({ y: 0, opacity: 1 }, 1000, 'easeOutQuad');
 
-    constantText.transition({ opacity: 0.1 }, 500, 'easeOutQuad');
     myLayersText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
     topText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
   }, function(){
@@ -40,7 +38,6 @@ topWrapper.hover(
     cssClass.transition({ y: 10, opacity: 0 }, 750, 'easeOutQuad');
     jsClass.transition({ y: -10, opacity: 0 }, 750, 'easeOutQuad');
 
-    constantText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
     myLayersText.transition({ opacity: 0 }, 500, 'easeOutQuad');
     topText.transition({ opacity: 0 }, 500, 'easeOutQuad');
   }
@@ -51,14 +48,12 @@ leftWrapper.hover(
     angularLeftClass.transition({ y: 0, opacity: 1 }, 1000, 'easeOutQuad');
     angularRightClass.transition({ y: 0, opacity: 1 }, 1000, 'easeOutQuad');
 
-    constantText.transition({ opacity: 0.1 }, 500, 'easeOutQuad');
     myLayersText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
     leftText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
   }, function(){
     angularLeftClass.transition({ y: -10, opacity: 0 }, 750, 'easeOutQuad');
     angularRightClass.transition({ y: 10, opacity: 0 }, 750, 'easeOutQuad');
 
-    constantText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
     myLayersText.transition({ opacity: 0 }, 500, 'easeOutQuad');
     leftText.transition({ opacity: 0 }, 500, 'easeOutQuad');
   }
@@ -68,13 +63,11 @@ rightWrapper.hover(
   function() {
     rubyClass.transition({ x: 0, opacity: 1 }, 1000, 'easeOutQuad');
 
-    constantText.transition({ opacity: 0.1 }, 500, 'easeOutQuad');
     myLayersText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
     rightText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
   }, function(){
     rubyClass.transition({ x: 10, opacity: 0 }, 750, 'easeOutQuad');
 
-    constantText.transition({ opacity: 1 }, 1000, 'easeOutQuad');
     myLayersText.transition({ opacity: 0 }, 500, 'easeOutQuad');
     rightText.transition({ opacity: 0 }, 500, 'easeOutQuad');
   }
