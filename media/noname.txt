@@ -11,8 +11,10 @@ You Don't Know JavaScript: Async & Performance. By Kyle Simpson.
 Mastering JavaScript Design Patterns. By Simon Timms.
 jQuery in Action. By Bear Bibeault.
 Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript. By Ritchie S. King.
-
-
+Learning AngularJS Animations. By Richard Keller.
+Dependency Injection with AngularJS. By Alex Knol.
+AngularJS Directives. By Alex Vanston.
+AngularJS Services. By Jim Lavin.
 
 
 http://www.beontrend.ru/seo/
