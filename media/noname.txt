@@ -32,3 +32,4 @@ http://codepen.io/davilious/pen/rFHLb                     // Form animation befo
 http://codepen.io/simoberny/pen/qdwaeZ                    // Slide to unlock
 http://codepen.io/brandonkennedy/pen/XbQdbW               // Browser detect
 http://codepen.io/Yakudoo/pen/LVyJXw                      // Three.js funny animation
+http://codepen.io/shshaw/pen/ZbExyV                       // Sky clouds with parallax
