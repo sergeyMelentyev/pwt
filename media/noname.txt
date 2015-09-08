@@ -1,3 +1,20 @@
+Books can be dangerous. The best ones should be labeled "This could change your life".
+What is on my "this book changed my life" list?
+
+The Art of Computer Programming. By Donald E. Knuth.
+Object-Oriented Analysis and Design with Applications. By Grady Booch.
+You Don't Know JavaScript: Up & Going. By Kyle Simpson.
+You Don't Know JavaScript: Scope & Closures. By Kyle Simpson.
+You Don't Know JavaScript: This & Object Prototypes. By Kyle Simpson.
+You Don't Know JavaScript: Types & Grammar. By Kyle Simpson.
+You Don't Know JavaScript: Async & Performance. By Kyle Simpson.
+Mastering JavaScript Design Patterns. By Simon Timms.
+jQuery in Action. By Bear Bibeault.
+Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript. By Ritchie S. King.
+
+
+
+
 http://www.beontrend.ru/seo/
 
 https://learn.javascript.ru/js
