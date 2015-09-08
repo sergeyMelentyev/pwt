@@ -3,8 +3,12 @@ http://www.beontrend.ru/seo/
 https://learn.javascript.ru/js
 https://learn.javascript.ru/nodejs-screencast
 JavaScript and HTML5 Now
+Mastering JavaScript Design Patterns
+jQuery in Action 3rd Edition
 Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley)
-Data Visualization with D3 and AngularJS
+
+The Art of Computer Programming
+Object-Oriented Analysis and Design with Applications
 
 Java: A Beginner's Guide, Sixth Edition (Oracle)
 Java: The Complete Reference, Ninth Edition (Oracle)
