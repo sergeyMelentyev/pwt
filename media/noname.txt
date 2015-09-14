@@ -1,7 +1,4 @@
-Такое ощущение, что во время апокалипсиса человечество будет бороться не с терминаторами с искуственным интелекотом, а с терминаторами под управлением хакеров :)
-Американский марсоход Curiosity, сейчас находящийся на Красной планете, работает под операционной системой VxWorks. Эта ОС от компании Intel работает не только на борту марсохода, но и в пассажирских авиалайнерах Boeing 787 Dreamliners, военных вертолетах и многих системах критически важной инфраструктуры.
-Канадская компания Istuary Innovation Labs разработала программу для фаззинга систем на VxWorks — и нашли несколько багов, в том числе уязвимость с целочисленным переполнением (integer overflow). С ее помощью оказалось возможным записывать произвольные данные в участки памяти компьютера под управлением VxWorks. Такая атака позволяет дистанционно и незаметно для жертвы установить на компьютере бекдор и получить полный контроль над функциями операционной системы. Компания Wind River, которая занимается поддержкой VxWorks была уведомлена об уязвимости.
-
+https://software.intel.com/en-us/get-started-edison-osx-step3
 http://amperka.ru/
 http://chipster.ru/
 
@@ -11,13 +8,8 @@ https://twitter.com/k06a
 http://www.beontrend.ru/seo/
 
 https://learn.javascript.ru/js
-https://learn.javascript.ru/nodejs-screencast
-JavaScript and HTML5 Now
-Mastering JavaScript Design Patterns
 jQuery in Action 3rd Edition
 Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley)
-
-The Art of Computer Programming
 Object-Oriented Analysis and Design with Applications
 
 Java: A Beginner's Guide, Sixth Edition (Oracle)
