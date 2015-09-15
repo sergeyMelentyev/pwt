@@ -18,6 +18,10 @@ PRO Вирусы
 
 Основы программирования и баз данных
 Программирование на языке C (Си)
+C Programming Language (2nd Edition)
+Jumping into C++
+Programming Arduino Next Steps: Going Further with Sketches
+Programming Arduino Getting Started with Sketches
 
 Java: A Beginner's Guide, Sixth Edition (Oracle)
 Java: The Complete Reference, Ninth Edition (Oracle)
