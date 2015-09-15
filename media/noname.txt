@@ -16,6 +16,9 @@ Express.js: Node.js Framework for Web Application Development
 Git для профессионального программиста (купон Pro Git)
 PRO Вирусы
 
+Основы программирования и баз данных
+Программирование на языке C (Си)
+
 Java: A Beginner's Guide, Sixth Edition (Oracle)
 Java: The Complete Reference, Ninth Edition (Oracle)
 Java EE 7: The Big Picture (Oracle)
