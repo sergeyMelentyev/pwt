@@ -1,7 +1,14 @@
 Электроника - Платт Ч. - Электроника для начинающих [2012, PDF, RUS]
-https://software.intel.com/en-us/get-started-edison-osx-step3
 http://wiki.amperka.ru/
 http://chipster.ru/
+
+Основы программирования и баз данных
+Программирование на языке C (Си)
+C Programming Language (2nd Edition)
+Jumping into C++
+Programming Arduino Next Steps: Going Further with Sketches
+Programming Arduino Getting Started with Sketches
+Exploring Arduino: Tools and Techniques for Engineering Wizardry
 
 https://learn.javascript.ru/js
 jQuery in Action 3rd Edition
@@ -14,23 +21,6 @@ Express.js: Node.js Framework for Web Application Development
 
 Git для профессионального программиста (купон Pro Git)
 PRO Вирусы
-
-Основы программирования и баз данных
-Программирование на языке C (Си)
-C Programming Language (2nd Edition)
-Jumping into C++
-Programming Arduino Next Steps: Going Further with Sketches
-Programming Arduino Getting Started with Sketches
-Exploring Arduino: Tools and Techniques for Engineering Wizardry
-
-Java: A Beginner's Guide, Sixth Edition (Oracle)
-Java: The Complete Reference, Ninth Edition (Oracle)
-Java EE 7: The Big Picture (Oracle)
-Java EE and HTML5 Enterprise Application Development (Oracle)
-Java WebSocket Programming (Oracle)
-Java EE Applications on Oracle Java Cloud (Oracle)
-Iron-Clad Java (Oracle)
-Mastering Lambdas (Oracle)
 
 http://tumen.mir-repetitorov.ru (sergey.melentyev@gmail.com / 10299005)
 http://tumen.high-ball.ru (sergey.melentyev@gmail.com / ced2bfd1)
