@@ -1,5 +1,4 @@
 Электроника - Платт Ч. - Электроника для начинающих [2012, PDF, RUS]
-Exploring Arduino: Tools and Techniques for Engineering Wizardry
 https://software.intel.com/en-us/get-started-edison-osx-step3
 http://wiki.amperka.ru/
 http://chipster.ru/
@@ -22,6 +21,7 @@ C Programming Language (2nd Edition)
 Jumping into C++
 Programming Arduino Next Steps: Going Further with Sketches
 Programming Arduino Getting Started with Sketches
+Exploring Arduino: Tools and Techniques for Engineering Wizardry
 
 Java: A Beginner's Guide, Sixth Edition (Oracle)
 Java: The Complete Reference, Ninth Edition (Oracle)
