@@ -4,15 +4,14 @@ https://software.intel.com/en-us/get-started-edison-osx-step3
 http://wiki.amperka.ru/
 http://chipster.ru/
 
-http://www.beupp.com/product/
-https://xakep.ru/
-https://twitter.com/k06a
-http://www.beontrend.ru/seo/
-
 https://learn.javascript.ru/js
 jQuery in Action 3rd Edition
-Visual Storytelling with D3: An Introduction to Data Visualization in JavaScript (Addison-Wesley)
+WebSocket: Lightweight Client-Server Communications 1st Edition
+Mastering D3.js
 Object-Oriented Analysis and Design with Applications
+Объектно-ориентированный анализ и проектирование с примерами приложений
+Node.js: Web Application Development
+Express.js: Node.js Framework for Web Application Development
 
 Java: A Beginner's Guide, Sixth Edition (Oracle)
 Java: The Complete Reference, Ninth Edition (Oracle)
@@ -43,32 +42,3 @@ http://codepen.io/simoberny/pen/qdwaeZ                    // Slide to unlock
 http://codepen.io/brandonkennedy/pen/XbQdbW               // Browser detect
 http://codepen.io/Yakudoo/pen/LVyJXw                      // Three.js funny animation
 http://codepen.io/shshaw/pen/ZbExyV                       // Sky clouds with parallax
-
-
-
-
-<svg version="1.1" x="0px" y="0px" viewBox="0 0 1300 600" style="enable-background:new 0 0 1300 600;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
-	.st2{font-family:'MyriadPro-Regular';}
-	.st3{font-size:24px;}
-</style>
-<circle class="st0" cx="192.6" cy="174" r="50"/>
-<circle class="st0" cx="856.6" cy="346" r="76"/>
-<circle class="st0" cx="630.6" cy="210" r="50"/>
-<circle class="st0" cx="360.6" cy="320" r="50"/>
-<circle class="st0" cx="1060.6" cy="170" r="50"/>
-<line class="st1" x1="0" y1="270" x2="142.6" y2="174"/>
-<line class="st1" x1="242.6" y1="174" x2="580.6" y2="210"/>
-<line class="st1" x1="680.6" y1="210" x2="1010.6" y2="170"/>
-<line class="st1" x1="1110.6" y1="170" x2="1300" y2="252.6"/>
-<line class="st1" x1="0" y1="291.9" x2="310.6" y2="320"/>
-<line class="st1" x1="410.6" y1="320" x2="780.6" y2="346"/>
-<line class="st1" x1="932.6" y1="346" x2="1300" y2="270"/>
-<text transform="matrix(1 0 0 1 165.6665 180.9521)" class="st2 st3">гифы</text>
-<text transform="matrix(1 0 0 1 336.6665 326.9521)" class="st2 st3">луки</text>
-<text transform="matrix(1 0 0 1 597.6665 217.9521)" class="st2 st3">статьи</text>
-<text transform="matrix(1 0 0 1 795.6665 354.9521)" class="st2 st3">coub-видео</text>
-<text transform="matrix(1 0 0 1 1037.6665 177.9521)" class="st2 st3">сэты</text>
-</svg>
