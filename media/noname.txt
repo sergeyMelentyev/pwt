@@ -13,7 +13,7 @@ Object-Oriented Analysis and Design with Applications
 Node.js: Web Application Development
 Express.js: Node.js Framework for Web Application Development
 
-Git для профессионального программиста
+Git для профессионального программиста (купон Pro Git)
 PRO Вирусы
 
 Java: A Beginner's Guide, Sixth Edition (Oracle)
