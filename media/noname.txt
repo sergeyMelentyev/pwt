@@ -9,21 +9,10 @@ http://www.123dapp.com/catch
 https://123d.circuits.io/lab
 
 https://learn.javascript.ru/js
-Mastering JavaScript Promises
-Mastering jQuery
-Mastering JavaScript High Performance
 Mastering D3.js
-WebSocket: Lightweight Client-Server Communications 1st Edition
-Node.js Blueprints
 
-Основы программирования и баз данных
-Программирование на языке C (Си)
-http://people.toiit.sgu.ru/Sinelnikov/PT/C/Kern_Ritch.pdf
-C Programming Language (2nd Edition)
 Jumping into C++
-Arduino Essentials
 Internet of Things with Arduino Blueprints
-Learning ROS for Robotics
 
 http://tumen.mir-repetitorov.ru (sergey.melentyev@gmail.com / 10299005)
 http://tumen.high-ball.ru (sergey.melentyev@gmail.com / ced2bfd1)
