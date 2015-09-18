@@ -2,36 +2,32 @@ http://www.eliz.com.ua/catalog/obq/4352m.html
 http://kipia.ru/catalog/detail/ts4352m1_kombinirovannyiy_elektroizmeritelnyiy_pribor__tester_3787/?sphrase_id=14271
 http://www.prist.ru/produce/card/meas.htm?id=-1780548871#t=main
 http://moiselektro.ru/elektroizmeritelnye-pribory/pribory-obshchego-naznacheniya.html
-
-
+http://wiki.amperka.ru/
+http://chipster.ru/
 http://www.trnio.com/tutorial/
 http://www.123dapp.com/catch
 https://123d.circuits.io/lab
 
+https://learn.javascript.ru/js
+Mastering JavaScript High Performance
+Mastering JavaScript Promises
+Mastering jQuery
+Mastering D3.js
+WebSocket: Lightweight Client-Server Communications 1st Edition
+Node.js Blueprints
+
+Object-Oriented Analysis and Design with Applications
+Объектно-ориентированный анализ и проектирование с примерами приложений
 Электроника - Платт Ч. - Электроника для начинающих [2012, PDF, RUS]
-http://wiki.amperka.ru/
-http://chipster.ru/
 
 Основы программирования и баз данных
 Программирование на языке C (Си)
 http://people.toiit.sgu.ru/Sinelnikov/PT/C/Kern_Ritch.pdf
 C Programming Language (2nd Edition)
 Jumping into C++
-Programming Arduino Next Steps: Going Further with Sketches
-Programming Arduino Getting Started with Sketches
-Exploring Arduino: Tools and Techniques for Engineering Wizardry
-
-https://learn.javascript.ru/js
-jQuery in Action 3rd Edition
-WebSocket: Lightweight Client-Server Communications 1st Edition
-Mastering D3.js
-Object-Oriented Analysis and Design with Applications
-Объектно-ориентированный анализ и проектирование с примерами приложений
-Node.js: Web Application Development
-Express.js: Node.js Framework for Web Application Development
-
-Git для профессионального программиста (купон Pro Git)
-PRO Вирусы
+Arduino Essentials
+Internet of Things with Arduino Blueprints
+Learning ROS for Robotics
 
 http://tumen.mir-repetitorov.ru (sergey.melentyev@gmail.com / 10299005)
 http://tumen.high-ball.ru (sergey.melentyev@gmail.com / ced2bfd1)
