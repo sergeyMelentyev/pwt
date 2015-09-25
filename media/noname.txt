@@ -1,22 +1,21 @@
 http://geektimes.ru/post/257816/
-http://www.istok2.com/data/
-http://fritzing.org/download/
 http://www.instructables.com/id/simple-user-adjustable-DIY-Nixie-Clock/
-https://learn.javascript.ru/profile/sergey-melentyev/quiz
 
+http://www.istochnik.nnov.ru/
+http://www.magistr.su/catalog/cifrovaya_payalnaya_stanciya__magistr_c_20_mikro_18_vt.html
 http://www.eliz.com.ua/catalog/obq/4352m.html
 http://kipia.ru/catalog/detail/ts4352m1_kombinirovannyiy_elektroizmeritelnyiy_pribor__tester_3787/?sphrase_id=14271
 http://www.prist.ru/produce/card/meas.htm?id=-1780548871#t=main
 http://moiselektro.ru/elektroizmeritelnye-pribory/pribory-obshchego-naznacheniya.html
+
+http://www.istok2.com/data/
 http://wiki.amperka.ru/
 http://chipster.ru/
-http://www.trnio.com/tutorial/
-http://www.123dapp.com/catch
+http://fritzing.org/download/
 https://123d.circuits.io/lab
 
 https://learn.javascript.ru/js
 Mastering D3.js
-
 Jumping into C++
 Internet of Things with Arduino Blueprints
 
@@ -24,12 +23,10 @@ http://tumen.mir-repetitorov.ru (sergey.melentyev@gmail.com / 10299005)
 http://tumen.high-ball.ru (sergey.melentyev@gmail.com / ced2bfd1)
 http://tyumen.teacherguild.ru (http://tyumen.teacherguild.ru/teacher/540)
 http://tyumen.repetitors.info
-
 http://www.utmn.ru/o-tyumgu/prepodavateli-i-sotrudniki/94206/
 http://mosobr.com/
 
 http://codepen.io/ge1doot/pen/bdQXjJ                      // Draw a tree in canvas
-http://codepen.io/chrisgannon/pen/jPwvYy                  // SVG loader
 http://codepen.io/invictus1002/pen/GpKNJR                 // Canvas abstract
 http://codepen.io/airen/pen/YXmLpJ                        // Rotate boxes
 http://codepen.io/marco_fugaro/pen/yNGJXE                 // Page tilt menu effect
