@@ -1,3 +1,5 @@
+
+
 http://geektimes.ru/post/257816/
 http://www.instructables.com/id/simple-user-adjustable-DIY-Nixie-Clock/
 
@@ -26,6 +28,9 @@ http://tyumen.repetitors.info
 http://www.utmn.ru/o-tyumgu/prepodavateli-i-sotrudniki/94206/
 http://mosobr.com/
 
+http://tympanus.net/Development/ElasticProgress/          // Эластичный загрузчик
+http://codepen.io/enxaneta/pen/BooWZm                     // Анимация сердца
+http://codepen.io/yukulele/pen/GppYjd                     // Всплывающие пузырьки газировки
 http://codepen.io/ge1doot/pen/bdQXjJ                      // Draw a tree in canvas
 http://codepen.io/invictus1002/pen/GpKNJR                 // Canvas abstract
 http://codepen.io/airen/pen/YXmLpJ                        // Rotate boxes
