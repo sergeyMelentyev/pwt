@@ -16,6 +16,11 @@ http://chipster.ru/
 http://fritzing.org/download/
 https://123d.circuits.io/lab
 
+Структура и Интерпретация Компьютерных Программ
+Structure and Interpretation of Computer Programs
+Алгоритмы. Построение и анализ
+Introduction to Algorithms
+
 https://learn.javascript.ru/js
 Mastering D3.js
 Jumping into C++
