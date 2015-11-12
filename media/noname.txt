@@ -1,8 +1,12 @@
-Много букв об актуальном «завтра» языке (ИМХО).
-Steve Jobs, Apple, June 2008 — «Такие компании, как Intel, I.B.M. и A.M.D. уж изжили весь потенциал постоянного увеличения скорости микропроцессоров. Индустрия зашла в тупик с тем, что скорость процессоров достигла своего максимума и дальше чипы начнут просто плавиться. Как следствие, производители переключается на разработку более энерго-эффективных процессоров с несколькими ядрами. Идея в том, что реальная производительность будет достигаться не путем дальнейшего увеличения скоростей, а путем разделения задачи на несколько составляющих и ее параллельное решение. Но теперь проблема развития этого пути заставила признаться производителей — ни кто не умеет эффективно программировать параллельное вычисление на нескольких ядрах одновременно. Мы и дальше будем увеличивать количество ядер, но ни кто не знает как заставить это работать эффективно. Два ядра — легко, четыре — уже не совсем, восемь  — забудьте об эффективности»
-Примерно с этого времени начал набирать обороты в прошлом менее востребованный Erlang Programming Language, который был целенаправленно разработан для применения в распределенных, отказоустойчивых, параллельных системах реального времени. Erlang практически идеально подходят для задач искусственного интеллекта, основанных на нейронных сетях. Подобное применение возможно благодаря имеющимся у Erlang пяти ключевым свойствам: изолированные процессы-нейроны (encapsulation), параллелизм (concurrency), механизм обнаружения сбоев, независимость от местоположения (location transparency) и горячая замена кода.
-Топовые проекты с использованием Erlang - Facebook (Chat), WhatsApp, GitHub, Git, Twitter (Twitterfall), Goldman Sachs (High-frequency trading platform), Call of Duty (Gaming core).
-
+http://rutracker.org/forum/viewtopic.php?t=5115019
+http://rutracker.org/forum/viewtopic.php?t=5078211
+http://rutracker.org/forum/viewtopic.php?t=5111791
+http://rutracker.org/forum/viewtopic.php?t=5112269
+http://rutracker.org/forum/viewtopic.php?t=5111780
+http://rutracker.org/forum/viewtopic.php?t=5013916
+http://rutracker.org/forum/viewtopic.php?t=5111767
+http://rutracker.org/forum/viewtopic.php?t=5026373
+http://rutracker.org/forum/viewtopic.php?t=5026165
 
 
 https://www.firebase.com/
@@ -11,8 +15,6 @@ https://jsonformatter.curiousconcept.com/
 http://appicontemplate.com/
 https://thenounproject.com/
 http://www.google.ru/design/spec/material-design/introduction.html
-
-
 
 http://geektimes.ru/post/257816/
 http://www.instructables.com/id/simple-user-adjustable-DIY-Nixie-Clock/
