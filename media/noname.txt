@@ -1,13 +1,3 @@
-http://rutracker.org/forum/viewtopic.php?t=5115019
-http://rutracker.org/forum/viewtopic.php?t=5078211
-http://rutracker.org/forum/viewtopic.php?t=5111791
-http://rutracker.org/forum/viewtopic.php?t=5112269
-http://rutracker.org/forum/viewtopic.php?t=5111780
-http://rutracker.org/forum/viewtopic.php?t=5013916
-http://rutracker.org/forum/viewtopic.php?t=5111767
-http://rutracker.org/forum/viewtopic.php?t=5026373
-http://rutracker.org/forum/viewtopic.php?t=5026165
-
 
 https://www.firebase.com/
 https://cocoapods.org/
