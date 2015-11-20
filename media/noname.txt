@@ -1,5 +1,5 @@
 http://www.nyxdata.com/Data-Products/Historical-Data
-
+http://www.nasdaqdod.com/NASDAQAnalytics.asmx?op=GetEndOfDayData
 
 https://www.firebase.com/
 https://cocoapods.org/
