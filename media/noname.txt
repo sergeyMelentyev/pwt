@@ -54,17 +54,6 @@ let (_, name) = anyName							// создание паттерна, игнори
 let anyName = (id: 12345, name: «anyName»)
 anyName.id								// доступ к первой переменной
 
-
-
-
-
-
-
-
-
-
-
-
 Управление потоком
 if let number = val where val > 0 {						// дополнительная проверка
 }					
@@ -114,24 +103,6 @@ if #available (iOS 9.1, *){						// все версии до указанной
    print(«some text»)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Error handling
 enum MyErrorListAnyName: ErrorType {
    case DivByZero							// инициализируем события, любые имена
@@ -163,41 +134,6 @@ func doSomthing (val1: Int?, val2: Int?){
    guard let key = val2 where val 2 < 0 else { return }			// return если условие не выполнено, переходим дальше
    var aswer = number + key					// нет ограничений видимости переменных, как в if else
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Функции
 func greet(name: String, day: String) -> String {}
@@ -235,36 +171,6 @@ printWelcomeMessage()
 
 
 Замыкания
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 Классы
 Все методы и свойства классов публичны. Если вам нужно сохранить данные в структурированном объекте, то используйте конструкцию struct
