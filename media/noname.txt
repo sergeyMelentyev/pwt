@@ -1,4 +1,5 @@
 Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
+The C Puzzle Book, Alan Feuer.
 
 http://www.nyxdata.com/Data-Products/Historical-Data
 http://www.nasdaqdod.com/NASDAQAnalytics.asmx?op=GetEndOfDayData
