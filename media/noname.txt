@@ -1,3 +1,6 @@
+Learning Core Data for iOS: A Hands-On Guide to Building Core Data Applications
+iOS 8 by Tutorials
+
 Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
 The C Puzzle Book, Alan Feuer.
 
