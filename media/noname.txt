@@ -1,9 +1,6 @@
-Advanced C++ Programming Training Course
-Windows 10 C++ App Development for Startups - C++ Simplified
-Learning Core Data for iOS: A Hands-On Guide to Building Core Data Applications
-iOS 8 by Tutorials
-http://www.makeblock.cc/
+http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3690.pdf
 
+http://www.makeblock.cc/
 
 Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
 The C Puzzle Book, Alan Feuer.
