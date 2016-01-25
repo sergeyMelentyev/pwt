@@ -1,9 +1,4 @@
-The LLVM compiler (formerly Low Level Virtual Machine)
-Metal by Example: High-performance graphics and data-parallel programming for iOS
-
-http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2013/n3690.pdf
-
-http://www.makeblock.cc/
+XCTest
 
 Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
 The C Puzzle Book, Alan Feuer.
