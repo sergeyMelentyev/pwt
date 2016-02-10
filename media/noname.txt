@@ -1,6 +1,3 @@
-GPU can be very successfully used for methods of time series analysis. An accelerated determination of scaling exponents can be performed on a GPU as well as the calculation of autocorrelation coefficients. Results of the scaling behavior of a stochastic process are obtained up to 80 times faster than on a modern CPU core. These methods were applied to a German Bund future (FGBL) time series of the European Exchange (EUREX), which exhibits an antipersistence on short time scales. Evidence is found that a super-diffusive regime is reached on medium time scales.
-
-
 http://www.tobiaspreis.de/publications/p_epjst_2011_gpu.pdf
 
 Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
