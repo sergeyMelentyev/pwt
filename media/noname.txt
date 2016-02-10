@@ -1,4 +1,4 @@
-XCTest
+http://www.tobiaspreis.de/publications/p_epjst_2011_gpu.pdf
 
 Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
 The C Puzzle Book, Alan Feuer.
