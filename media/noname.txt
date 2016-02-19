@@ -1,4 +1,5 @@
-http://www.tobiaspreis.de/publications/p_epjst_2011_gpu.pdf
+http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
+https://developer.apple.com/legacy/library/documentation/Cocoa/Conceptual/GarbageCollection/GarbageCollection.pdf
 
 Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
 The C Puzzle Book, Alan Feuer.
