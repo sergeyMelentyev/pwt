@@ -1,3 +1,5 @@
+http://www.programmableweb.com/apis/directory
+
 http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
 https://developer.apple.com/legacy/library/documentation/Cocoa/Conceptual/GarbageCollection/GarbageCollection.pdf
 
