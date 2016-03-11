@@ -9,19 +9,8 @@ The C Puzzle Book, Alan Feuer.
 http://www.nyxdata.com/Data-Products/Historical-Data
 http://www.nasdaqdod.com/NASDAQAnalytics.asmx?op=GetEndOfDayData
 
-https://www.firebase.com/
 https://cocoapods.org/
-https://jsonformatter.curiousconcept.com/
-http://appicontemplate.com/
 https://thenounproject.com/
-http://www.google.ru/design/spec/material-design/introduction.html
 
 http://geektimes.ru/post/257816/
 http://www.instructables.com/id/simple-user-adjustable-DIY-Nixie-Clock/
-
-http://tumen.mir-repetitorov.ru (sergey.melentyev@gmail.com / 10299005)
-http://tumen.high-ball.ru (sergey.melentyev@gmail.com / ced2bfd1)
-http://tyumen.teacherguild.ru (http://tyumen.teacherguild.ru/teacher/540)
-http://tyumen.repetitors.info
-http://www.utmn.ru/o-tyumgu/prepodavateli-i-sotrudniki/94206/
-http://mosobr.com/
