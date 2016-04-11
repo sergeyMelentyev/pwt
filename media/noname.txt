@@ -1,21 +1,5 @@
-https://skiplagged.com/
-
-http://www.addonics.com/products/ADM2NVMPX4.php
-http://www.angelbird.com/en/prod/wings-px1-1117/
+http://www.informit.com/store/programming-in-c-9780132781213
+http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789
+http://www.informit.com/store/c-plus-plus-programming-language-9780321563842
 
 http://www.programmableweb.com/apis/directory
-
-http://sealedabstract.com/rants/why-mobile-web-apps-are-slow/
-https://developer.apple.com/legacy/library/documentation/Cocoa/Conceptual/GarbageCollection/GarbageCollection.pdf
-
-Structured computer organization / Архитектура компьютера (6th edition / 6-е издание)
-The C Puzzle Book, Alan Feuer.
-
-http://www.nyxdata.com/Data-Products/Historical-Data
-http://www.nasdaqdod.com/NASDAQAnalytics.asmx?op=GetEndOfDayData
-
-https://cocoapods.org/
-https://thenounproject.com/
-
-http://geektimes.ru/post/257816/
-http://www.instructables.com/id/simple-user-adjustable-DIY-Nixie-Clock/
