@@ -1,5 +1,5 @@
-http://www.informit.com/store/programming-in-c-9780132781213
-http://www.informit.com/store/programming-principles-and-practice-using-c-plus-plus-9780321992789
-http://www.informit.com/store/c-plus-plus-programming-language-9780321563842
+Jumping into C++
+Effective Modern C++
+The C++ Programming Language
 
 http://www.programmableweb.com/apis/directory
