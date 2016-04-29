@@ -1,5 +1,4 @@
-Jumping into C++
-Effective Modern C++
-The C++ Programming Language
+Mathematics for Computer Science
+Introduction to Algorithms
 
 http://www.programmableweb.com/apis/directory
