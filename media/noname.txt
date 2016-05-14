@@ -1,4 +1,6 @@
-Mathematics for Computer Science
-Introduction to Algorithms
+Mathias, Swift Programming: The Big Nerd Ranch Guide
+Hillegass, Objective-C Programming: The Big Nerd Ranch Guide
+Hillegass, iOS Programming: The Big Nerd Ranch Guide
+Kernighan, The C Programming Language
 
 http://www.programmableweb.com/apis/directory
