@@ -6,3 +6,10 @@ http://www.quantatrisk.com/2015/06/22/get-list-nasdaq-securities-python-csv/
 http://digitalpbk.com/stock/google-finance-get-stock-quote-realtime
 
 http://www.programmableweb.com/apis/directory
+
+Cython
+High Performance Python 
+Introduction to Machine Learning with Python 
+Data Wrangling with Python 
+
+Learning OpenCV 3
