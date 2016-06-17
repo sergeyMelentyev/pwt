@@ -7,9 +7,9 @@ http://digitalpbk.com/stock/google-finance-get-stock-quote-realtime
 
 http://www.programmableweb.com/apis/directory
 
+Data Wrangling with Python 
 Cython
 High Performance Python 
-Introduction to Machine Learning with Python 
-Data Wrangling with Python 
 
+Introduction to Machine Learning with Python 
 Learning OpenCV 3
