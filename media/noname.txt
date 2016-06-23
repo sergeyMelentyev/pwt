@@ -4,5 +4,31 @@ http://www.nasdaq.com/screening/companies-by-industry.aspx?exchange=NASDAQ&rende
 
 http://www.quantatrisk.com/2015/06/22/get-list-nasdaq-securities-python-csv/
 digitalpbk.com/stock/google-finance-get-stock-quote-realtime
+http://www.canbike.org/information-technology/yahoo-finance-url-download-to-a-csv-file.html
 
 http://www.programmableweb.com/apis/directory
+
+import urllib2
+import json
+import time
+
+class GoogleFinanceAPI:
+    def __init__(self):
+        self.prefix = "http://finance.google.com/finance/info?client=ig&q="
+    
+    def get(self,symbol,exchange):
+        url = self.prefix+"%s:%s"%(exchange,symbol)
+        u = urllib2.urlopen(url)
+        content = u.read()
+        
+        obj = json.loads(content[3:])
+        return obj[0]
+        
+        
+if __name__ == "__main__":
+    c = GoogleFinanceAPI()
+    
+    while 1:
+        quote = c.get("MSFT","NASDAQ")
+        print quote
+        time.sleep(30)
