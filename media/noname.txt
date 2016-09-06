@@ -1,6 +1,3 @@
-C++ programming in Qt FrameWork Part I : Fundamentals 
-C++ programming in Qt FrameWork Part II 
-
 iOS 10 & Swift 3: From Beginner to Paid Professional 
 The Python Mega Course: Build 10 Python Applications 
 Face Detection -Master Open CV with Digital Image Processing 
