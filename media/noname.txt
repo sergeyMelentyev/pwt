@@ -1,5 +1,8 @@
 Ноутбук Sony VGN-FZ31SR
 
+dmkpress.com
+Android NDK. Руководство для начинающих
+Программирование на ассемблере на платформе x86-64
 
 https://tproger.ru
 https://www.wolframalpha.com/
