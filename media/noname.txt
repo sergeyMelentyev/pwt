@@ -1,8 +1,5 @@
 https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:154
 
-http://www.informit.com/store/android-database-best-practices-9780134437996
-ISBN-10: 0-13-443799-3
-
 http://www.informit.com/store/android-concurrency-9780134177434
 ISBN-10: 0-13-417743-6
 
