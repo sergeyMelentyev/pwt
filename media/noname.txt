@@ -1,13 +1,13 @@
-http://www.sensormultitool.com/
-http://www.pearsoned.co.uk/bookshop/subject.asp?item=6893
-
 https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:154
+
+http://www.informit.com/store/android-database-best-practices-9780134437996
+ISBN-10: 0-13-443799-3
+
+http://www.informit.com/store/java-performance-companion-9780133796827
+ISBN-10: 0-13-379682-5
 
 Ноутбук Sony VGN-FZ31SR
 https://www.apple.com/support/iphone6s-unexpectedshutdown/
-
-dmkpress.com
-Android NDK. Руководство для начинающих
 
 https://tproger.ru
 https://www.wolframalpha.com/
