@@ -1,7 +1,8 @@
 https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:154
 
-http://www.informit.com/store/android-concurrency-9780134177434
-ISBN-10: 0-13-417743-6
+Java SE: Core, Collections, Concurrency, Generics, Reflection
+Java EE: Spring Framework, Hibernate, Tomcat, Maven
+MySql, PostgreSQL
 
 https://geektimes.ru/company/top3dshop/blog/283170/
 Ноутбук Sony VGN-FZ31SR
