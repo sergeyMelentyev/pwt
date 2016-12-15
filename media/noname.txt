@@ -1,17 +1,7 @@
-Mr Robot. USA Network
-
 https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:154
 
-Java SE: Core, Collections, Concurrency, Generics, Reflection
-Java EE: Spring Framework, Hibernate, Tomcat, Maven
-MySql, PostgreSQL
-
-https://geektimes.ru/company/top3dshop/blog/283170/
 Ноутбук Sony VGN-FZ31SR
-https://www.apple.com/support/iphone6s-unexpectedshutdown/
 
-https://tproger.ru
 https://www.wolframalpha.com/
 http://pythontutor.com/
-http://www.scoop.it/t/embedded-software
 http://www.programmableweb.com/apis/directory
