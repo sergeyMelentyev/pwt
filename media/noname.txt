@@ -5,6 +5,10 @@ http://old.intuit.ru/department/pl/javapl/9/3.html
 http://docs.oracle.com/javase/6/docs/api/java/util/Collections.html
 http://stackoverflow.com/questions/223918/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-re
 
+http://docs.oracle.com/javase/tutorial/java/javaOO/methods.html
+http://info.javarush.ru/javarush_articles/2015/12/11/Исключения-и-их-обработка.html
+http://www.quizful.net/interview/java/exception-types
+
 
 https://dominternat.jimdo.com
 
