@@ -1,3 +1,5 @@
+https://ru.wikibooks.org/wiki/Объектно-ориентированное_программирование
+
 http://ru.stackoverflow.com/questions/166875/Расширение-и-сужение-типов#167311
 http://info.javarush.ru/javarush_articles/2015/12/11/Методы-и-классы-final-Java.html
 https://habrahabr.ru/post/132241/
