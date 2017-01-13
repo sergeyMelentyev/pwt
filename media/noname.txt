@@ -1,3 +1,13 @@
+Вакансии в IT-компаниях 
+1) Mail.Ru Group: http://bit.ly/2ciLZsm 
+2) Лаборатория Касперского: http://bit.ly/2clXPUH 
+3) Luxoft: http://bit.ly/2cySVpL 
+4) Softline: http://bit.ly/2clboCT 
+5) Крок: http://bit.ly/2ciLheD 
+6) Сбербанк-Технологии: http://bit.ly/2ciMxOL 
+7) СКБ-Контур: http://bit.ly/2cTncyK 
+
+
 https://ru.wikibooks.org/wiki/Объектно-ориентированное_программирование
 
 http://ru.stackoverflow.com/questions/166875/Расширение-и-сужение-типов#167311
