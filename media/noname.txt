@@ -7,6 +7,8 @@
 6) Сбербанк-Технологии: http://bit.ly/2ciMxOL 
 7) СКБ-Контур: http://bit.ly/2cTncyK 
 
+http://www.skipy.ru/philosophy/inheritance.html
+http://wikijava.it-cache.net/index.php@title=Glava_8_Thinking_in_Java_4th_edition.html
 
 https://ru.wikibooks.org/wiki/Объектно-ориентированное_программирование
 
