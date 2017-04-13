@@ -1,49 +1,4 @@
-Вакансии в IT-компаниях 
-1) Mail.Ru Group: http://bit.ly/2ciLZsm 
-2) Лаборатория Касперского: http://bit.ly/2clXPUH 
-3) Luxoft: http://bit.ly/2cySVpL 
-4) Softline: http://bit.ly/2clboCT 
-5) Крок: http://bit.ly/2ciLheD 
-6) Сбербанк-Технологии: http://bit.ly/2ciMxOL 
-7) СКБ-Контур: http://bit.ly/2cTncyK 
-
-http://wikijava.it-cache.net/index.php@title=Glava_17_Thinking_in_Java_4th_edition.html
-
-http://wikijava.it-cache.net/index.php@title=Glava_5_Thinking_in_Java_4th_edition.html#.D0.98.D0.BD.D0.B8.D1.86.D0.B8.D0.B0.D0.BB.D0.B8.D0.B7.D0.B0.D1.86.D0.B8.D1.8F_.D1.87.D0.BB.D0.B5.D0.BD.D0.BE.D0.B2_.D0.BA.D0.BB.D0.B0.D1.81.D1.81.D0.B0
-
-http://wikijava.it-cache.net/index.php@title=Glava_13_Thinking_in_Java_4th_edition.html
-
-http://wikijava.it-cache.net/index.php@title=Glava_9_Thinking_in_Java_4th_edition.html
-
-http://www.skipy.ru/philosophy/inheritance.html
-http://wikijava.it-cache.net/index.php@title=Glava_8_Thinking_in_Java_4th_edition.html
-
-https://ru.wikibooks.org/wiki/Объектно-ориентированное_программирование
-
-http://ru.stackoverflow.com/questions/166875/Расширение-и-сужение-типов#167311
-http://info.javarush.ru/javarush_articles/2015/12/11/Методы-и-классы-final-Java.html
-https://habrahabr.ru/post/132241/
-http://old.intuit.ru/department/pl/javapl/7/
-
-http://www.seostella.com/ru/article/2012/02/05/formatirovanie-daty-v-java.html
-
-https://habrahabr.ru/post/127864/
-https://habrahabr.ru/post/128269/
-http://old.intuit.ru/department/pl/javapl/14/2.html#sect10
-http://old.intuit.ru/department/pl/javapl/9/3.html
-http://docs.oracle.com/javase/6/docs/api/java/util/Collections.html
-http://stackoverflow.com/questions/223918/iterating-through-a-collection-avoiding-concurrentmodificationexception-when-re
-
-http://docs.oracle.com/javase/tutorial/java/javaOO/methods.html
-http://info.javarush.ru/javarush_articles/2015/12/11/Исключения-и-их-обработка.html
-http://www.quizful.net/interview/java/exception-types
-
-
 https://dominternat.jimdo.com
-
-https://f-droid.org       // android free aps
-
-https://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=654&get_params=p_id:154
 
 Ноутбук Sony VGN-FZ31SR
 
