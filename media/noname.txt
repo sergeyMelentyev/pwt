@@ -7,4 +7,14 @@ http://pythontutor.com/
 http://www.programmableweb.com/apis/directory
 
 
- RX580 25MH/s
+Radeon RX580 25MH/s
+Radeon RX570
+
+Radeon RX480
+Radeon RX470
+
+Radeon R9 390X
+Radeon R9 390
+
+Radeon R9 295X2
+Radeon R9 290X
