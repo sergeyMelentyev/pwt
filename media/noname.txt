@@ -7,14 +7,13 @@ http://pythontutor.com/
 http://www.programmableweb.com/apis/directory
 
 
-Radeon RX580 25MH/s
-Radeon RX570
+Radeon RX580 28MH/s
+Radeon RX570 25Mh/s
+Radeon RX480 25Mh/s Power 150
+Radeon RX470 24Mh/s Power 150
+Radeon R9 390X 32MH/s
+Radeon R9 390 25MH/s
+Radeon R9 295X2 45MH/s Power 500
+Radeon R9 290X 22MH/s Power 290
 
-Radeon RX480
-Radeon RX470
-
-Radeon R9 390X
-Radeon R9 390
-
-Radeon R9 295X2
-Radeon R9 290X
+GeForce GTX 1070
