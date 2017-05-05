@@ -5,3 +5,6 @@ https://dominternat.jimdo.com
 https://www.wolframalpha.com/
 http://pythontutor.com/
 http://www.programmableweb.com/apis/directory
+
+
+ RX580 25MH/s
