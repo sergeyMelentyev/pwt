@@ -1,19 +1,8 @@
+https://leanpub.com/understandinges6/read#leanpub-auto-using-symbols
+
 https://dominternat.jimdo.com
 
 Ноутбук Sony VGN-FZ31SR
 
-https://www.wolframalpha.com/
 http://pythontutor.com/
 http://www.programmableweb.com/apis/directory
-
-
-Radeon RX580 28MH/s
-Radeon RX570 25Mh/s
-Radeon RX480 25Mh/s Power 150
-Radeon RX470 24Mh/s Power 150
-Radeon R9 390X 32MH/s
-Radeon R9 390 25MH/s
-Radeon R9 295X2 45MH/s Power 500
-Radeon R9 290X 22MH/s Power 290
-
-GeForce GTX 1070
