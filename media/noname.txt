@@ -1,3 +1,9 @@
+http://www.anychart.com/features/
+https://www.highcharts.com/stock/demo
+http://www.chartjs.org/samples/latest/
+https://github.com/d3/d3/wiki/Gallery
+
+
 https://leanpub.com/understandinges6/read#leanpub-auto-using-symbols
 https://leanpub.com/javascriptallongesix/read#leanpub-auto-about-javascript-allong
 
