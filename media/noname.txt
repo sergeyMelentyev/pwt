@@ -1,5 +1,7 @@
-http://www.anychart.com/features/
 https://www.highcharts.com/stock/demo
+2011-2016 год - это 26280 точек
+
+http://www.anychart.com/features/
 http://www.chartjs.org/samples/latest/
 https://github.com/d3/d3/wiki/Gallery
 
