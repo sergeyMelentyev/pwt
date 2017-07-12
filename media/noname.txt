@@ -1,3 +1,5 @@
+https://habrahabr.ru/post/332914/
+
 http://javascript.crockford.com/little
 
 https://leanpub.com/understandinges6/read#leanpub-auto-using-symbols
