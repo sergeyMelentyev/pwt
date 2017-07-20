@@ -1,8 +1,1 @@
-https://habrahabr.ru/post/332914/
 
-http://javascript.crockford.com/little
-
-https://leanpub.com/understandinges6/read#leanpub-auto-using-symbols
-https://leanpub.com/javascriptallongesix/read#leanpub-auto-about-javascript-allong
-
-http://www.programmableweb.com/apis/directory
