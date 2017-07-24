@@ -7,3 +7,6 @@ http://imageoptimizer.net/Pages/Home.aspx
 http://spriteme.org/
 
 http://www.programmableweb.com/apis/directory
+
+http://compressorrater.thruhere.net/
+
