@@ -25,3 +25,6 @@ http://compressorrater.thruhere.net/
 -==SVG TO BASE64 ENCODE==-
 
 https://yoksel.github.io/url-encoder/
+
+-== VUE CHARTS ==-
+https://www.sitepoint.com/creating-beautiful-charts-vue-chart-js/
