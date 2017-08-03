@@ -27,4 +27,9 @@ http://compressorrater.thruhere.net/
 https://yoksel.github.io/url-encoder/
 
 -== VUE CHARTS ==-
+
 https://www.sitepoint.com/creating-beautiful-charts-vue-chart-js/
+
+-== QUESTIONS ==-
+
+https://habrahabr.ru/company/ruvds/blog/334538/
